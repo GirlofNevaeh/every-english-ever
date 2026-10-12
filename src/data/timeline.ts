@@ -1,0 +1,122 @@
+import type { TimeEvent } from "./types";
+
+export const timeline: TimeEvent[] = [
+  {
+    id: "farmers",
+    when: "About 4000 BCE",
+    title: "First farmers",
+    text: "The first farmers reached this land about 6,000 years ago. They grew crops and kept animals.",
+  },
+  {
+    id: "stones",
+    when: "About 2500 BCE",
+    title: "Great stones",
+    text: "People raised the stones at Stonehenge and Avebury. We are not sure what the circles were for.",
+    picture: "stonehenge",
+  },
+  {
+    id: "romans-come",
+    when: "Year 43",
+    title: "Romans arrive",
+    text: "Roman armies came in the year 43. They built towns, roads, and, later, Hadrian's Wall.",
+    picture: "hadrians-wall",
+  },
+  {
+    id: "romans-leave",
+    when: "Early 400s",
+    title: "Romans leave",
+    text: "In the early 400s the Roman armies left. Local leaders had to manage on their own.",
+  },
+  {
+    id: "kingdoms",
+    when: "About 600–900",
+    title: "Kingdoms",
+    text: "Angles, Saxons, and others formed kingdoms such as Northumbria, Mercia, and Wessex. England was not one country yet.",
+  },
+  {
+    id: "aethelstan",
+    when: "927",
+    title: "One English kingdom",
+    text: "In 927 Æthelstan ruled over the English kingdoms. Many people call him the first king of all England. We are not sure of every border.",
+  },
+  {
+    id: "hastings",
+    when: "1066",
+    title: "A new king",
+    text: "In 1066 William of Normandy became king after the battle of Hastings.",
+  },
+  {
+    id: "charter",
+    when: "1215",
+    title: "A charter for a king",
+    text: "In 1215 barons made King John agree to a charter. It said even a king had to keep some rules.",
+  },
+  {
+    id: "illness",
+    when: "1348",
+    title: "A great illness",
+    text: "In 1348 a great illness, called the Black Death, changed villages and towns.",
+  },
+  {
+    id: "tudors",
+    when: "1485–1603",
+    title: "The Tudor court",
+    text: "In the Tudor court, music, plays, and portraits mattered, and the ruler's word was heavy.",
+    picture: "city-of-london",
+  },
+  {
+    id: "armada",
+    when: "1588",
+    title: "Ships in the Channel",
+    text: "In 1588 a Spanish fleet sailed against England. Storms and English ships kept it from landing.",
+  },
+  {
+    id: "civil",
+    when: "1640s",
+    title: "Civil wars",
+    text: "In the 1640s people in England fought a civil war about the king and Parliament.",
+  },
+  {
+    id: "fire",
+    when: "1666",
+    title: "The Great Fire",
+    text: "In 1666 a fire burned much of the City of London. Wren and other builders raised new churches, including St Paul's.",
+  },
+  {
+    id: "union",
+    when: "1707",
+    title: "A larger kingdom",
+    text: "In 1707 the parliaments of England and Scotland joined. England stayed a country, inside a larger kingdom.",
+  },
+  {
+    id: "industry",
+    when: "About 1760–1900",
+    title: "Industrial towns",
+    text: "In the industrial towns, new mills and railways changed how people worked and lived.",
+    picture: "ironbridge",
+  },
+  {
+    id: "first-war",
+    when: "1914–1918",
+    title: "A long war",
+    text: "In 1914 a war began that lasted four years. Families in every county felt it.",
+  },
+  {
+    id: "second-war",
+    when: "1939–1945",
+    title: "A second war",
+    text: "A second great war ran from 1939 to 1945.",
+  },
+  {
+    id: "nhs",
+    when: "1948",
+    title: "Doctors for everyone",
+    text: "In 1948 the National Health Service began in Britain, so people could see a doctor without paying at the door.",
+  },
+  {
+    id: "web",
+    when: "1989",
+    title: "The web",
+    text: "Tim Berners-Lee, who was born in London, set out the World Wide Web while working in Switzerland. He shared the work. The internet was already there, built by many people.",
+  },
+];
