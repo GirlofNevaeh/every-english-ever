@@ -1,9 +1,11 @@
 import type { LocaleId } from "./languages";
+import { extra } from "./ui-extra";
 
 /** Short interface lines. The English key is what the pages pass to tr(). */
 export const ui: Record<LocaleId, Record<string, string>> = {
   en: {},
   gd: {
+    ...extra.gd,
     "Skip to content": "Leum chun na susbaint",
     "Every English Ever": "A h-uile Sasannach a bha ann",
     Home: "Dhachaigh",
@@ -154,6 +156,7 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     Lock: "Glas",
   },
   cy: {
+    ...extra.cy,
     "Skip to content": "Neidio i'r cynnwys",
     "Every English Ever": "Pob Sais erioed",
     Home: "Cartref",
@@ -304,6 +307,7 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     Lock: "Clo",
   },
   ga: {
+    ...extra.ga,
     "Skip to content": "Léim go dtí an t-ábhar",
     "Every English Ever": "Gach Sasanach riamh",
     Home: "Baile",
@@ -454,6 +458,7 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     Lock: "Glas",
   },
   fr: {
+    ...extra.fr,
     "Skip to content": "Aller au contenu",
     "Every English Ever": "Tous les Anglais",
     Home: "Accueil",
@@ -604,6 +609,7 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     Lock: "Verrou",
   },
   it: {
+    ...extra.it,
     "Skip to content": "Vai al contenuto",
     "Every English Ever": "Tutti gli inglesi",
     Home: "Inizio",
@@ -754,6 +760,7 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     Lock: "Blocca",
   },
   es: {
+    ...extra.es,
     "Skip to content": "Saltar al contenido",
     "Every English Ever": "Todos los ingleses",
     Home: "Inicio",
@@ -904,6 +911,7 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     Lock: "Bloquear",
   },
   ru: {
+    ...extra.ru,
     "Skip to content": "К содержанию",
     "Every English Ever": "Все англичане",
     Home: "Начало",

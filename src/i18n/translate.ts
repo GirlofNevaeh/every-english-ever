@@ -1,10 +1,10 @@
-import cy from "./catalogs/cy.json";
-import es from "./catalogs/es.json";
-import fr from "./catalogs/fr.json";
-import ga from "./catalogs/ga.json";
-import gd from "./catalogs/gd.json";
-import it from "./catalogs/it.json";
-import ru from "./catalogs/ru.json";
+import cy from "./catalogs/cy.json" with { type: "json" };
+import es from "./catalogs/es.json" with { type: "json" };
+import fr from "./catalogs/fr.json" with { type: "json" };
+import ga from "./catalogs/ga.json" with { type: "json" };
+import gd from "./catalogs/gd.json" with { type: "json" };
+import it from "./catalogs/it.json" with { type: "json" };
+import ru from "./catalogs/ru.json" with { type: "json" };
 import type { LocaleId } from "./languages";
 import { ui } from "./ui";
 

@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useTr } from "@/i18n/locale";
+import { useLocale } from "@/i18n/locale";
 
 export const Route = createFileRoute("/work")({
   head: () => ({ meta: [{ title: "Work · Every English Ever" }] }),
@@ -40,17 +40,24 @@ const blanks = [
 ];
 
 function WorkPage() {
-  const tr = useTr();
+  const { locale, tr } = useLocale();
   return (
     <main id="content" className="mx-auto w-full max-w-3xl px-4 pb-16 pt-6">
       <h1 className="font-serif text-4xl text-russet sm:text-5xl">{tr("Work")}</h1>
       <p className="no-print mt-3">{tr("Sheets to print. Facts live on this site.")}</p>
 
       <section className="sheet mt-8 rounded-card border border-ink/15 p-4">
-        <div className="no-print mb-3">
+        <div className="no-print mb-3 flex flex-wrap gap-2">
           <button type="button" className="min-h-11 rounded-lg bg-russet px-4 text-cream" onClick={() => window.print()}>
             {tr("Print sheets")}
           </button>
+          <a
+            className="inline-flex min-h-11 items-center rounded-lg border border-yew px-4 font-semibold text-yew"
+            href={`/quiz/every-english-ever-quiz-${locale}.pdf`}
+            download
+          >
+            {tr("Download the quiz")}
+          </a>
         </div>
         <h2 className="font-serif text-3xl text-russet">{tr("County word bank")}</h2>
         <p className="mt-2">{tr("Use these words in sentences about England. Look at the county pages if you need a fact.")}</p>
