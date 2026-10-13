@@ -11,7 +11,7 @@ export const Route = createFileRoute("/places/$slug")({
     if (!place) throw notFound();
     return place;
   },
-  head: ({ loaderData }) => ({ meta: [{ title: `${loaderData?.name ?? "Place"} · Every English Ever` }] }),
+  head: ({ loaderData }) => ({ meta: [{ title: `${loaderData?.name ?? "Place"} · Every English Person Ever` }] }),
   component: PlacePage,
 });
 

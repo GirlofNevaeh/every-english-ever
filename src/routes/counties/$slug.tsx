@@ -9,7 +9,7 @@ export const Route = createFileRoute("/counties/$slug")({
     if (!county) throw notFound();
     return county;
   },
-  head: ({ loaderData }) => ({ meta: [{ title: `${loaderData?.name ?? "County"} · Every English Ever` }] }),
+  head: ({ loaderData }) => ({ meta: [{ title: `${loaderData?.name ?? "County"} · Every English Person Ever` }] }),
   component: CountyPage,
 });
 

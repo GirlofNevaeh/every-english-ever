@@ -4,7 +4,7 @@ import { QuizPlay } from "@/components/quiz-play";
 import { fill, useLocale } from "@/i18n/locale";
 
 export const Route = createFileRoute("/quiz")({
-  head: () => ({ meta: [{ title: "Quiz · Every English Ever" }] }),
+  head: () => ({ meta: [{ title: "Quiz · Every English Person Ever" }] }),
   component: QuizPage,
 });
 

@@ -4,7 +4,7 @@ import { Photo } from "@/components/photo";
 import { useTr } from "@/i18n/locale";
 
 export const Route = createFileRoute("/beliefs")({
-  head: () => ({ meta: [{ title: "Beliefs · Every English Ever" }] }),
+  head: () => ({ meta: [{ title: "Beliefs · Every English Person Ever" }] }),
   component: BeliefsPage,
 });
 

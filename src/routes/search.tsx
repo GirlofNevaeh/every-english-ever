@@ -9,7 +9,7 @@ export const Route = createFileRoute("/search")({
   validateSearch: (search: Record<string, unknown>): SearchParams => ({
     q: typeof search.q === "string" ? search.q : "",
   }),
-  head: () => ({ meta: [{ title: "Search · Every English Ever" }] }),
+  head: () => ({ meta: [{ title: "Search · Every English Person Ever" }] }),
   component: SearchPage,
 });
 

@@ -10,7 +10,7 @@ export const Route = createFileRoute("/people/$slug")({
     if (!person) throw notFound();
     return person;
   },
-  head: ({ loaderData }) => ({ meta: [{ title: `${loaderData?.name ?? "Person"} · Every English Ever` }] }),
+  head: ({ loaderData }) => ({ meta: [{ title: `${loaderData?.name ?? "Person"} · Every English Person Ever` }] }),
   component: PersonPage,
 });
 

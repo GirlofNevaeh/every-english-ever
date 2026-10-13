@@ -5,7 +5,7 @@ import { Photo } from "@/components/photo";
 import { useTr } from "@/i18n/locale";
 
 export const Route = createFileRoute("/time")({
-  head: () => ({ meta: [{ title: "Time · Every English Ever" }] }),
+  head: () => ({ meta: [{ title: "Time · Every English Person Ever" }] }),
   component: TimePage,
 });
 

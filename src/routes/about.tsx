@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useTr } from "@/i18n/locale";
 
 export const Route = createFileRoute("/about")({
-  head: () => ({ meta: [{ title: "About · Every English Ever" }] }),
+  head: () => ({ meta: [{ title: "About · Every English Person Ever" }] }),
   component: AboutPage,
 });
 

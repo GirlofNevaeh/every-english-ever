@@ -11,7 +11,7 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Every English Ever" },
+      { title: "Every English Person Ever" },
       { name: "description", content: "A children's history of England to read aloud in class." },
       { name: "theme-color", content: "#8C2F39" },
     ],

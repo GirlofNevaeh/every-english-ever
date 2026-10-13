@@ -6,7 +6,7 @@ import { SearchBox } from "@/components/search-box";
 import { fill, useTr } from "@/i18n/locale";
 
 export const Route = createFileRoute("/people/")({
-  head: () => ({ meta: [{ title: "People · Every English Ever" }] }),
+  head: () => ({ meta: [{ title: "People · Every English Person Ever" }] }),
   component: PeoplePage,
 });
 

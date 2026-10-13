@@ -8,7 +8,7 @@ import { PlaceMap } from "@/components/place-map";
 import { fill, useTr } from "@/i18n/locale";
 
 export const Route = createFileRoute("/places/")({
-  head: () => ({ meta: [{ title: "Places · Every English Ever" }] }),
+  head: () => ({ meta: [{ title: "Places · Every English Person Ever" }] }),
   component: PlacesPage,
 });
 

@@ -44,8 +44,8 @@ export function SiteHeader() {
       <div className="mx-auto w-full max-w-5xl px-3 py-2">
         <LanguageButton />
         <div className="mt-2 flex items-center justify-between gap-3">
-          <Link to="/" className="inline-block font-serif text-2xl leading-none text-russet sm:text-3xl">
-            {tr("Every English Ever")}
+          <Link to="/" className="min-w-0 font-serif text-xl leading-tight text-russet sm:text-3xl">
+            {tr("Every English Person Ever")}
           </Link>
           <button
             type="button"

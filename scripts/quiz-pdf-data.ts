@@ -13,7 +13,7 @@ export type QuizPack = {
 export function quizPacks(): QuizPack[] {
   return localeIds.map((locale) => ({
     locale,
-    title: translate(locale, "Every English Ever"),
+    title: translate(locale, "Every English Person Ever"),
     quiz: translate(locale, "Quiz"),
     note: translate(locale, "This sheet has 200 questions. It has no answers."),
     items: questions.map((question, index) => ({

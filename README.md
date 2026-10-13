@@ -1,4 +1,4 @@
-# Every English Ever
+# Every English Person Ever
 
 A children's history of England, built with TanStack Start. The production build uses Nitro's Vercel preset and writes the [Build Output API](https://vercel.com/docs/build-output-api) to `.vercel/output`.
 

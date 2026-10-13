@@ -10,7 +10,7 @@ import { SearchBox } from "@/components/search-box";
 import { useTr } from "@/i18n/locale";
 
 export const Route = createFileRoute("/")({
-  head: () => ({ meta: [{ title: "Every English Ever" }] }),
+  head: () => ({ meta: [{ title: "Every English Person Ever" }] }),
   component: Home,
 });
 

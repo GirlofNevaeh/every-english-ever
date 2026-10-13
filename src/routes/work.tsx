@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useLocale } from "@/i18n/locale";
 
 export const Route = createFileRoute("/work")({
-  head: () => ({ meta: [{ title: "Work · Every English Ever" }] }),
+  head: () => ({ meta: [{ title: "Work · Every English Person Ever" }] }),
   component: WorkPage,
 });
 

@@ -5,7 +5,7 @@ import { stages, type StageId } from "@/data/types";
 import { useTr } from "@/i18n/locale";
 
 export const Route = createFileRoute("/projects")({
-  head: () => ({ meta: [{ title: "Projects · Every English Ever" }] }),
+  head: () => ({ meta: [{ title: "Projects · Every English Person Ever" }] }),
   component: ProjectsPage,
 });
 
