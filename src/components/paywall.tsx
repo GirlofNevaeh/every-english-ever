@@ -37,7 +37,7 @@ export function Paywall({ onUnlock }: { onUnlock: () => void }) {
         <h1 className="mt-2 font-serif text-4xl text-russet sm:text-6xl">{tr("Every English Person Ever")}</h1>
         <p className="mt-4 text-xl">
           {tr(
-            "Every English Person Ever is a history of England for children aged 4 to 11. The sentences are short, so you can read them aloud in class.",
+            "Every English Person Ever is a history of England for children of Age 5-12. The sentences are short, so you can read them aloud in class.",
           )}
         </p>
         <p className="mt-3">

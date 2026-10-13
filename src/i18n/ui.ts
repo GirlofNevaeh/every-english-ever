@@ -140,8 +140,8 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     "England is one country of the United Kingdom. It has its own history and its own counties. It does not have a separate official anthem. God Save the King is the anthem of the United Kingdom, not of England alone.":
       "Tha Sasainn na aon dùthaich den Rìoghachd Aonaichte. Tha a h-eachdraidh fhèin aice agus a siorrachdan fhèin. Chan eil òran-nàiseanta oifigeil fa leth aice. Is e God Save the King òran na Rìoghachd Aonaichte, chan e òran Sasainn a-mhàin.",
     "For schools": "Airson sgoiltean",
-    "Every English Person Ever is a history of England for children aged 4 to 11. The sentences are short, so you can read them aloud in class.":
-      "Tha Every English Person Ever na eachdraidh Shasainn do chloinn eadar 4 is 11. Tha na seantansan goirid, gus an leugh sibh iad os àrd sa chlas.",
+    "Every English Person Ever is a history of England for children of Age 5-12. The sentences are short, so you can read them aloud in class.":
+      "Tha Every English Person Ever na eachdraidh Shasainn do chloinn Aois 5-12. Tha na seantansan goirid, gus an leugh sibh iad os àrd sa chlas.",
     "Inside you will find people, real places, the counties of England, beliefs, a timeline, a quiz, work sheets, and projects.":
       "A-staigh gheibh sibh daoine, àiteachan fìor, siorrachdan Shasainn, creideamhan, loidhne-tìm, ceistean, duilleagan obrach, agus pròiseactan.",
     "The pages stay closed until you enter an access key.": "Tha na duilleagan dùinte gus an cuir sibh a-steach iuchair-inntrigidh.",
@@ -291,8 +291,8 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     "England is one country of the United Kingdom. It has its own history and its own counties. It does not have a separate official anthem. God Save the King is the anthem of the United Kingdom, not of England alone.":
       "Mae Lloegr yn un wlad o'r Deyrnas Unedig. Mae ganddi ei hanes ei hun a'i siroedd ei hun. Nid oes ganddi anthem swyddogol ar wahân. God Save the King yw anthem y Deyrnas Unedig, nid anthem Lloegr yn unig.",
     "For schools": "I ysgolion",
-    "Every English Person Ever is a history of England for children aged 4 to 11. The sentences are short, so you can read them aloud in class.":
-      "Mae Every English Person Ever yn hanes Lloegr i blant 4 i 11 oed. Mae'r brawddegau'n fyr, fel y gallwch eu darllen yn uchel yn y dosbarth.",
+    "Every English Person Ever is a history of England for children of Age 5-12. The sentences are short, so you can read them aloud in class.":
+      "Mae Every English Person Ever yn hanes Lloegr i blant Oed 5-12. Mae'r brawddegau'n fyr, fel y gallwch eu darllen yn uchel yn y dosbarth.",
     "Inside you will find people, real places, the counties of England, beliefs, a timeline, a quiz, work sheets, and projects.":
       "Y tu mewn fe welwch bobl, lleoedd go iawn, siroedd Lloegr, credoau, llinell amser, cwis, taflenni gwaith, a phrosiectau.",
     "The pages stay closed until you enter an access key.": "Mae'r tudalennau ar gau nes i chi roi allwedd fynediad.",
@@ -442,8 +442,8 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     "England is one country of the United Kingdom. It has its own history and its own counties. It does not have a separate official anthem. God Save the King is the anthem of the United Kingdom, not of England alone.":
       "Tír amháin den Ríocht Aontaithe is ea Sasana. Tá a stair féin agus a contaetha féin aici. Níl amhrán náisiúnta oifigiúil ar leith aici. Is é God Save the King amhrán na Ríochta Aontaithe, ní amhrán Shasana amháin.",
     "For schools": "Do scoileanna",
-    "Every English Person Ever is a history of England for children aged 4 to 11. The sentences are short, so you can read them aloud in class.":
-      "Is stair Shasana do pháistí idir 4 agus 11 é Every English Person Ever. Tá na habairtí gearr, ionas gur féidir iad a léamh os ard sa rang.",
+    "Every English Person Ever is a history of England for children of Age 5-12. The sentences are short, so you can read them aloud in class.":
+      "Is stair Shasana do pháistí Aois 5-12 é Every English Person Ever. Tá na habairtí gearr, ionas gur féidir iad a léamh os ard sa rang.",
     "Inside you will find people, real places, the counties of England, beliefs, a timeline, a quiz, work sheets, and projects.":
       "Taobh istigh gheobhaidh tú daoine, áiteanna fíor, contaetha Shasana, creidimh, amlíne, tráth na gceist, bileoga oibre, agus tionscadail.",
     "The pages stay closed until you enter an access key.": "Fanann na leathanaigh dúnta go dtí go gcuireann tú eochair rochtana isteach.",
@@ -593,8 +593,8 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     "England is one country of the United Kingdom. It has its own history and its own counties. It does not have a separate official anthem. God Save the King is the anthem of the United Kingdom, not of England alone.":
       "L'Angleterre est l'un des pays du Royaume-Uni. Elle a sa propre histoire et ses propres comtés. Elle n'a pas d'hymne officiel à elle seule. God Save the King est l'hymne du Royaume-Uni, pas celui de l'Angleterre seule.",
     "For schools": "Pour les écoles",
-    "Every English Person Ever is a history of England for children aged 4 to 11. The sentences are short, so you can read them aloud in class.":
-      "Every English Person Ever est une histoire de l'Angleterre pour les enfants de 4 à 11 ans. Les phrases sont courtes, pour les lire à voix haute en classe.",
+    "Every English Person Ever is a history of England for children of Age 5-12. The sentences are short, so you can read them aloud in class.":
+      "Every English Person Ever est une histoire de l'Angleterre pour les enfants d'Âge 5-12. Les phrases sont courtes, pour les lire à voix haute en classe.",
     "Inside you will find people, real places, the counties of England, beliefs, a timeline, a quiz, work sheets, and projects.":
       "À l'intérieur : des personnes, de vrais lieux, les comtés d'Angleterre, des croyances, une frise, un quiz, des fiches et des projets.",
     "The pages stay closed until you enter an access key.": "Les pages restent fermées tant que vous n'entrez pas une clé d'accès.",
@@ -744,8 +744,8 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     "England is one country of the United Kingdom. It has its own history and its own counties. It does not have a separate official anthem. God Save the King is the anthem of the United Kingdom, not of England alone.":
       "L'Inghilterra è uno dei paesi del Regno Unito. Ha una storia propria e contee proprie. Non ha un inno ufficiale tutto suo. God Save the King è l'inno del Regno Unito, non solo dell'Inghilterra.",
     "For schools": "Per le scuole",
-    "Every English Person Ever is a history of England for children aged 4 to 11. The sentences are short, so you can read them aloud in class.":
-      "Every English Person Ever è una storia dell'Inghilterra per bambini dai 4 agli 11 anni. Le frasi sono corte, da leggere ad alta voce in classe.",
+    "Every English Person Ever is a history of England for children of Age 5-12. The sentences are short, so you can read them aloud in class.":
+      "Every English Person Ever è una storia dell'Inghilterra per bambini di Età 5-12. Le frasi sono corte, da leggere ad alta voce in classe.",
     "Inside you will find people, real places, the counties of England, beliefs, a timeline, a quiz, work sheets, and projects.":
       "Dentro trovi persone, luoghi veri, le contee d'Inghilterra, credenze, una linea del tempo, un quiz, schede e progetti.",
     "The pages stay closed until you enter an access key.": "Le pagine restano chiuse finché non inserisci una chiave di accesso.",
@@ -895,8 +895,8 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     "England is one country of the United Kingdom. It has its own history and its own counties. It does not have a separate official anthem. God Save the King is the anthem of the United Kingdom, not of England alone.":
       "Inglaterra es un país del Reino Unido. Tiene su propia historia y sus propios condados. No tiene un himno oficial aparte. God Save the King es el himno del Reino Unido, no solo de Inglaterra.",
     "For schools": "Para escuelas",
-    "Every English Person Ever is a history of England for children aged 4 to 11. The sentences are short, so you can read them aloud in class.":
-      "Every English Person Ever es una historia de Inglaterra para niños de 4 a 11 años. Las frases son cortas, para leerlas en voz alta en clase.",
+    "Every English Person Ever is a history of England for children of Age 5-12. The sentences are short, so you can read them aloud in class.":
+      "Every English Person Ever es una historia de Inglaterra para niños de Edad 5-12. Las frases son cortas, para leerlas en voz alta en clase.",
     "Inside you will find people, real places, the counties of England, beliefs, a timeline, a quiz, work sheets, and projects.":
       "Dentro hay personas, lugares reales, los condados de Inglaterra, creencias, una línea de tiempo, un cuestionario, fichas y proyectos.",
     "The pages stay closed until you enter an access key.": "Las páginas siguen cerradas hasta que escribes una clave de acceso.",
@@ -1046,8 +1046,8 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     "England is one country of the United Kingdom. It has its own history and its own counties. It does not have a separate official anthem. God Save the King is the anthem of the United Kingdom, not of England alone.":
       "Англия — одна из стран Соединённого Королевства. У неё своя история и свои графства. У неё нет отдельного официального гимна. God Save the King — гимн Соединённого Королевства, а не только Англии.",
     "For schools": "Для школ",
-    "Every English Person Ever is a history of England for children aged 4 to 11. The sentences are short, so you can read them aloud in class.":
-      "Every English Person Ever — история Англии для детей от 4 до 11 лет. Фразы короткие, чтобы читать вслух в классе.",
+    "Every English Person Ever is a history of England for children of Age 5-12. The sentences are short, so you can read them aloud in class.":
+      "Every English Person Ever — история Англии для детей 5–12 лет. Фразы короткие, чтобы читать вслух в классе.",
     "Inside you will find people, real places, the counties of England, beliefs, a timeline, a quiz, work sheets, and projects.":
       "Внутри: люди, настоящие места, графства Англии, вера, лента времени, викторина, листы и проекты.",
     "The pages stay closed until you enter an access key.": "Страницы закрыты, пока вы не введёте ключ доступа.",
