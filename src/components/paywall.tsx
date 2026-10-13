@@ -61,7 +61,7 @@ export function Paywall({ onUnlock }: { onUnlock: () => void }) {
         >
           {tr("Buy an access key")}
         </a>
-        <form onSubmit={submit} className="mt-8 rounded-card border border-ink/15 p-4">
+        <form method="post" onSubmit={submit} className="mt-8 rounded-card border border-ink/15 p-4">
           <label className="block font-semibold" htmlFor="access-key">
             {tr("Access key")}
           </label>
