@@ -1,13 +1,15 @@
 import { countyShapes, mapFrame, project } from "@/data/county-shapes";
 import { places } from "@/data/places";
+import { useTr } from "@/i18n/locale";
 
 export function PlaceMap() {
+  const tr = useTr();
   return (
     <div className="rounded-card border border-ink/15 bg-yew/5 p-2">
       <svg
         viewBox={`0 0 ${mapFrame.width} ${mapFrame.height}`}
         role="img"
-        aria-label="Places in England, north at the top"
+        aria-label={tr("Places in England, north at the top")}
         className="h-auto w-full"
       >
         <rect width={mapFrame.width} height={mapFrame.height} fill="var(--color-cream)" />
@@ -27,7 +29,7 @@ export function PlaceMap() {
           );
         })}
       </svg>
-      <p className="mt-2 text-sm">North is at the top. Tap a mark, or tap a name.</p>
+      <p className="mt-2 text-sm">{tr("North is at the top. Tap a mark, or tap a name.")}</p>
       <ul className="mt-3 grid gap-2 sm:grid-cols-2">
         {places.map((place) => (
           <li key={place.slug}>

@@ -3,6 +3,7 @@ import { getCounty } from "@/data/counties";
 import { pictures } from "@/data/pictures";
 import { getPlace } from "@/data/places";
 import { Photo } from "@/components/photo";
+import { useTr } from "@/i18n/locale";
 
 export const Route = createFileRoute("/places/$slug")({
   loader: ({ params }) => {
@@ -15,6 +16,7 @@ export const Route = createFileRoute("/places/$slug")({
 });
 
 function PlacePage() {
+  const tr = useTr();
   const place = Route.useLoaderData();
   const county = getCounty(place.county);
   const picture = pictures[place.picture];
@@ -32,12 +34,12 @@ function PlacePage() {
       <div className="mt-6">{picture ? <Photo picture={picture} alt={place.name} /> : null}</div>
       <div className="mt-6 space-y-3">
         {place.lines.map((line) => (
-          <p key={line}>{line}</p>
+          <p key={line}>{tr(line)}</p>
         ))}
       </div>
       <p className="mt-8">
         <Link className="underline decoration-russet" to="/places">
-          All places
+          {tr("All places")}
         </Link>
       </p>
     </main>

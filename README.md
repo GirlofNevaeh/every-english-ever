@@ -17,3 +17,14 @@ Import this repository. No database and no environment variables are required.
 `framework` is unset on purpose. Do not switch the preset to Vite or set a static output folder such as `dist`. Nitro already emits the server and static files Vercel should publish.
 
 Sign-in stays off unless you set `VITE_AUTH_ENABLED=true`. This site does not use accounts.
+
+## Access keys
+
+The history pages stay closed until a key is entered on that device. The first screen sends buyers to [everyschoolever.com](https://everyschoolever.com). A key looks like `EEE-XXXX-XXXX-XXXX`. The check lives in the browser, so it stops a wrong or empty key. It is not a server receipt from the shop.
+
+Make keys to sell or to test:
+
+```bash
+node scripts/make-access-key.mjs 5
+```
+

@@ -7,6 +7,7 @@ import { timeline } from "@/data/timeline";
 import { Photo } from "@/components/photo";
 import { Portrait } from "@/components/portrait";
 import { SearchBox } from "@/components/search-box";
+import { useTr } from "@/i18n/locale";
 
 export const Route = createFileRoute("/")({
   head: () => ({ meta: [{ title: "Every English Ever" }] }),
@@ -30,6 +31,7 @@ function PictureBlock({ id, alt }: { id: string; alt: string }) {
 }
 
 function Home() {
+  const tr = useTr();
   const navigate = useNavigate();
   const photoPeople = homePeople
     .map((slug) => people.find((person) => person.slug === slug))
@@ -37,10 +39,10 @@ function Home() {
 
   return (
     <main id="content" className="mx-auto w-full max-w-5xl px-4 pb-16 pt-6">
-      <p className="font-semibold text-yew">A history of England for children</p>
-      <h1 className="mt-2 max-w-3xl font-serif text-4xl text-russet sm:text-6xl">Read it aloud. Share it in class.</h1>
+      <p className="font-semibold text-yew">{tr("A history of England for children")}</p>
+      <h1 className="mt-2 max-w-3xl font-serif text-4xl text-russet sm:text-6xl">{tr("Read it aloud. Share it in class.")}</h1>
       <p className="mt-4 max-w-2xl text-xl">
-        England has its own story. These pages use short sentences, real places, and people you can name.
+        {tr("England has its own story. These pages use short sentences, real places, and people you can name.")}
       </p>
       <div className="mt-6 flex flex-wrap items-end gap-4">
         <SearchBox />
@@ -53,7 +55,7 @@ function Home() {
             void navigate({ to: "/people/$slug", params: { slug: person.slug } });
           }}
         >
-          Surprise me
+          {tr("Surprise me")}
         </button>
       </div>
 
@@ -61,33 +63,33 @@ function Home() {
         <article>
           <div className="mb-3 flex items-center gap-2 text-yew">
             <Ship aria-hidden="true" />
-            <h2 className="font-serif text-3xl text-russet">Land and sea</h2>
+            <h2 className="font-serif text-3xl text-russet">{tr("Land and sea")}</h2>
           </div>
-          <PictureBlock id="dover-cliffs" alt="The white cliffs of Dover" />
+          <PictureBlock id="dover-cliffs" alt={tr("The white cliffs of Dover")} />
           <p className="mt-3">
-            Chalk cliffs, moors, fens, and a long coast. The white cliffs of Dover look out to sea. The lakes of Cumbria sit in the hills.
+            {tr("Chalk cliffs, moors, fens, and a long coast. The white cliffs of Dover look out to sea. The lakes of Cumbria sit in the hills.")}
           </p>
         </article>
         <article>
           <div className="mb-3 flex items-center gap-2 text-yew">
             <Castle aria-hidden="true" />
-            <h2 className="font-serif text-3xl text-russet">Castles</h2>
+            <h2 className="font-serif text-3xl text-russet">{tr("Castles")}</h2>
           </div>
-          <PictureBlock id="warwick-castle" alt="Warwick Castle" />
+          <PictureBlock id="warwick-castle" alt={tr("Warwick Castle")} />
           <p className="mt-3">
-            Castles kept towns and river crossings. Warwick Castle still stands by the Avon. Durham's castle shares a hill with the cathedral.
+            {tr("Castles kept towns and river crossings. Warwick Castle still stands by the Avon. Durham's castle shares a hill with the cathedral.")}
           </p>
         </article>
         <article>
           <div className="mb-3 flex items-center gap-2 text-yew">
             <Church aria-hidden="true" />
-            <h2 className="font-serif text-3xl text-russet">Beliefs</h2>
+            <h2 className="font-serif text-3xl text-russet">{tr("Beliefs")}</h2>
           </div>
-          <PictureBlock id="parish-church" alt="All Saints' Church at Earls Barton, a parish church in Northamptonshire" />
+          <PictureBlock id="parish-church" alt={tr("All Saints' Church at Earls Barton, a parish church in Northamptonshire")} />
           <p className="mt-3">
-            Parish churches sit in many villages. England is also home to other faiths. Stories such as Arthur and Robin Hood are stories.{" "}
+            {tr("Parish churches sit in many villages. England is also home to other faiths. Stories such as Arthur and Robin Hood are stories.")}{" "}
             <Link className="underline decoration-russet" to="/beliefs">
-              Read the beliefs page
+              {tr("Read the beliefs page")}
             </Link>
             .
           </p>
@@ -95,11 +97,11 @@ function Home() {
         <article>
           <div className="mb-3 flex items-center gap-2 text-yew">
             <Trees aria-hidden="true" />
-            <h2 className="font-serif text-3xl text-russet">Daily life</h2>
+            <h2 className="font-serif text-3xl text-russet">{tr("Daily life")}</h2>
           </div>
-          <PictureBlock id="daily-life" alt="Stone cottages in an English village" />
+          <PictureBlock id="daily-life" alt={tr("Stone cottages in an English village")} />
           <p className="mt-3">
-            People live in villages, towns, and cities. They go to school, to shops, and to parks. Stone cottages, terraces, and new streets are all part of England.
+            {tr("People live in villages, towns, and cities. They go to school, to shops, and to parks. Stone cottages, terraces, and new streets are all part of England.")}
           </p>
         </article>
       </section>
@@ -107,24 +109,24 @@ function Home() {
       <section className="mt-12">
         <div className="mb-3 flex items-center gap-2 text-yew">
           <Landmark aria-hidden="true" />
-          <h2 className="font-serif text-3xl text-russet">A strip of time</h2>
+          <h2 className="font-serif text-3xl text-russet">{tr("A strip of time")}</h2>
         </div>
         <div className="flex gap-3 overflow-x-auto pb-3" tabIndex={0}>
           {timeline.map((event) => (
             <article key={event.id} className="w-64 shrink-0 rounded-card border border-ink/15 bg-cream p-3">
-              <p className="text-sm font-semibold text-yew">{event.when}</p>
-              <h3 className="mt-1 font-serif text-xl">{event.title}</h3>
-              <p className="mt-2 text-base">{event.text}</p>
+              <p className="text-sm font-semibold text-yew">{tr(event.when)}</p>
+              <h3 className="mt-1 font-serif text-xl">{tr(event.title)}</h3>
+              <p className="mt-2 text-base">{tr(event.text)}</p>
             </article>
           ))}
         </div>
         <Link className="mt-2 inline-block underline decoration-russet" to="/time">
-          Open the full timeline
+          {tr("Open the full timeline")}
         </Link>
       </section>
 
       <section className="mt-12">
-        <h2 className="font-serif text-3xl text-russet">Six places</h2>
+        <h2 className="font-serif text-3xl text-russet">{tr("Six places")}</h2>
         <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {homePlaces.map((slug) => {
             const place = getPlace(slug);
@@ -145,7 +147,7 @@ function Home() {
       </section>
 
       <section className="mt-12">
-        <h2 className="font-serif text-3xl text-russet">Six people</h2>
+        <h2 className="font-serif text-3xl text-russet">{tr("Six people")}</h2>
         <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {photoPeople.map((person) =>
             person ? (
@@ -156,7 +158,7 @@ function Home() {
                     {person.name}
                   </Link>
                 </h3>
-                <p>{person.knownFor}</p>
+                <p>{tr(person.knownFor)}</p>
               </article>
             ) : null,
           )}

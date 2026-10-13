@@ -2,6 +2,7 @@ import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import { getPerson, people } from "@/data/people";
 import { periods, roles } from "@/data/types";
 import { Portrait } from "@/components/portrait";
+import { fill, useTr } from "@/i18n/locale";
 
 export const Route = createFileRoute("/people/$slug")({
   loader: ({ params }) => {
@@ -14,6 +15,7 @@ export const Route = createFileRoute("/people/$slug")({
 });
 
 function PersonPage() {
+  const tr = useTr();
   const person = Route.useLoaderData();
   const role = roles.find((item) => item.id === person.role)?.label;
   const period = periods.find((item) => item.id === person.period);
@@ -22,34 +24,34 @@ function PersonPage() {
   return (
     <main id="content" className="mx-auto w-full max-w-3xl px-4 pb-16 pt-6">
       <p className="text-sm font-semibold text-yew">
-        {role} · {period?.label}
+        {role ? tr(role) : null} · {period ? tr(period.label) : null}
       </p>
       <h1 className="mt-2 font-serif text-4xl text-russet sm:text-5xl">{person.name}</h1>
       <p className="mt-2 text-lg font-semibold">{person.years}</p>
-      <p className="mt-3 text-xl">{person.knownFor}</p>
+      <p className="mt-3 text-xl">{tr(person.knownFor)}</p>
       <div className="mt-6">
         <Portrait person={person} />
       </div>
       <div className="mt-6 space-y-3">
         {person.lines.map((line) => (
-          <p key={line}>{line}</p>
+          <p key={line}>{tr(line)}</p>
         ))}
       </div>
       {person.places.length > 0 ? (
         <p className="mt-4">
-          <span className="font-semibold">Places. </span>
+          <span className="font-semibold">{tr("Places. ")}</span>
           {person.places.join(", ")}
         </p>
       ) : null}
       {person.inventions?.map((item) => (
         <article key={item.name} className="mt-4 rounded-card border border-ink/15 p-4">
-          <h2 className="font-serif text-2xl text-russet">{item.name}</h2>
-          {item.shared ? <p className="mt-2">{item.shared}</p> : <p className="mt-2">This work is linked with {person.name}.</p>}
+          <h2 className="font-serif text-2xl text-russet">{tr(item.name)}</h2>
+          {item.shared ? <p className="mt-2">{tr(item.shared)}</p> : <p className="mt-2">{fill(tr("This work is linked with {name}."), { name: person.name })}</p>}
         </article>
       ))}
       <p className="mt-8">
         <Link className="underline decoration-russet" to="/people">
-          All people
+          {tr("All people")}
         </Link>
       </p>
       {more.length > 0 ? (

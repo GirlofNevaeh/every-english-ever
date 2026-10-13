@@ -1,7 +1,9 @@
 import { createRootRoute, HeadContent, Outlet, Scripts } from "@tanstack/react-router";
 import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
+import { AccessGate } from "@/components/access-gate";
 import { SiteHeader } from "@/components/site-header";
+import { LocaleProvider, useTr } from "@/i18n/locale";
 import appCss from "../styles.css?url";
 
 export const Route = createRootRoute({
@@ -33,18 +35,27 @@ export const Route = createRootRoute({
       </head>
       <body>
         <PreviewHostBridge />
-        <AuthProvider>
-          <SiteHeader />
-          <Outlet />
-        </AuthProvider>
+        <LocaleProvider>
+          <AuthProvider>
+            <AccessGate>
+              <SiteHeader />
+              <Outlet />
+            </AccessGate>
+          </AuthProvider>
+        </LocaleProvider>
         <Scripts />
       </body>
     </html>
   ),
-  notFoundComponent: () => (
-    <main id="content" className="mx-auto max-w-3xl px-4 py-10">
-      <h1 className="font-serif text-4xl text-russet">We cannot find that page</h1>
-      <p className="mt-3">Try search, or go back to the home page.</p>
-    </main>
-  ),
+  notFoundComponent: NotFound,
 });
+
+function NotFound() {
+  const tr = useTr();
+  return (
+    <main id="content" className="mx-auto max-w-3xl px-4 py-10">
+      <h1 className="font-serif text-4xl text-russet">{tr("We cannot find that page")}</h1>
+      <p className="mt-3">{tr("Try search, or go back to the home page.")}</p>
+    </main>
+  );
+}

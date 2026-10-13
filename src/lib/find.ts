@@ -1,13 +1,15 @@
 import { counties } from "@/data/counties";
 import { people } from "@/data/people";
 import { places } from "@/data/places";
+import type { LocaleId } from "@/i18n/languages";
+import { translate } from "@/i18n/translate";
 
 export function norm(value: string) {
   return value
     .toLowerCase()
     .replace(/æ/g, "ae")
     .replace(/[’']/g, "")
-    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
     .trim()
     .replace(/\s+/g, " ");
 }
@@ -22,8 +24,9 @@ export function isFullName(value: string) {
   return fullNames.has(norm(value));
 }
 
-export function searchAll(query: string) {
+export function searchAll(query: string, locale: LocaleId = "en") {
   const words = norm(query).split(" ").filter(Boolean);
+  const tr = (text: string) => translate(locale, text);
   const hay = (parts: Array<string | undefined>) => {
     const text = norm(parts.filter(Boolean).join(" "));
     return words.every((word) => text.includes(word));
@@ -38,14 +41,24 @@ export function searchAll(query: string) {
       hay([
         person.name,
         person.knownFor,
+        tr(person.knownFor),
         person.years,
         ...person.places,
-        ...(person.inventions ?? []).map((item) => item.name),
+        ...person.lines,
+        ...person.lines.map(tr),
+        ...(person.inventions ?? []).flatMap((item) => [item.name, tr(item.name), item.shared, item.shared ? tr(item.shared) : undefined]),
       ]),
     ),
     places: places.filter((place) =>
-      hay([place.name, ...place.lines, counties.find((county) => county.slug === place.county)?.name]),
+      hay([
+        place.name,
+        ...place.lines,
+        ...place.lines.map(tr),
+        counties.find((county) => county.slug === place.county)?.name,
+      ]),
     ),
-    counties: counties.filter((county) => hay([county.name, county.town, county.land, ...county.facts])),
+    counties: counties.filter((county) =>
+      hay([county.name, county.town, county.land, tr(county.land), ...county.facts, ...county.facts.map(tr)]),
+    ),
   };
 }

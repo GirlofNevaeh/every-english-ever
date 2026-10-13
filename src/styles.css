@@ -36,6 +36,13 @@
     font-weight: 560;
   }
 
+  html[lang="ru"] h1,
+  html[lang="ru"] h2,
+  html[lang="ru"] h3,
+  html[lang="ru"] h4 {
+    font-family: var(--font-sans);
+  }
+
   button:not(:disabled),
   [role="button"]:not(:disabled) {
     cursor: pointer;

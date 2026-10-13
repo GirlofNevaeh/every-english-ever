@@ -3,8 +3,10 @@ import { useMemo, useState } from "react";
 import { getCounty } from "@/data/counties";
 import { countyShapes, project } from "@/data/county-shapes";
 import { places } from "@/data/places";
+import { useTr } from "@/i18n/locale";
 
 export function CountyMap() {
+  const tr = useTr();
   const [slug, setSlug] = useState<string>("northumberland");
   const county = getCounty(slug);
   const linked = places.filter((place) => place.county === slug);
@@ -24,7 +26,7 @@ export function CountyMap() {
     <div className="grid gap-6 lg:grid-cols-[minmax(0,1.2fr)_minmax(16rem,0.8fr)]">
       <div>
         <div className="rounded-card border border-ink/15 bg-yew/5 p-2">
-          <svg viewBox={`0 0 560 680`} role="img" aria-label="Ceremonial counties of England, north at the top" className="h-auto w-full">
+          <svg viewBox={`0 0 560 680`} role="img" aria-label={tr("Ceremonial counties of England, north at the top")} className="h-auto w-full">
             <rect width="560" height="680" fill="var(--color-cream)" />
             {countyShapes.map((shape) => (
               <path
@@ -55,14 +57,14 @@ export function CountyMap() {
             <path d="M34 42 L34 18 M28 24 L34 16 L40 24" fill="none" stroke="var(--color-ink)" strokeWidth="1.4" />
           </svg>
         </div>
-        <p className="mt-2 text-sm">North is at the top. Tap a county. The small ones are listed beside the map too.</p>
-        <h3 className="mt-4 font-serif text-2xl text-russet">London, closer</h3>
-        <p className="mt-1 text-sm">Greater London and the City of London are different counties. Both can be tapped.</p>
+        <p className="mt-2 text-sm">{tr("North is at the top. Tap a county. The small ones are listed beside the map too.")}</p>
+        <h3 className="mt-4 font-serif text-2xl text-russet">{tr("London, closer")}</h3>
+        <p className="mt-1 text-sm">{tr("Greater London and the City of London are different counties. Both can be tapped.")}</p>
         <div className="mt-2 rounded-card border border-ink/15 bg-yew/5 p-2">
           <svg
             viewBox={`${london.x} ${london.y} ${london.width} ${london.height}`}
             role="img"
-            aria-label="Greater London and the City of London"
+            aria-label={tr("Greater London and the City of London")}
             className="h-auto w-full"
           >
             <rect x={london.x} y={london.y} width={london.width} height={london.height} fill="var(--color-cream)" />
@@ -92,8 +94,7 @@ export function CountyMap() {
           </svg>
         </div>
         <p className="mt-3 text-sm leading-snug">
-          County shapes are simplified from open boundary data. © Crown copyright and database right, Ordnance Survey
-          and the Office for National Statistics. The City of London shape is © OpenStreetMap contributors.
+          {tr("County shapes are simplified from open boundary data. © Crown copyright and database right, Ordnance Survey and the Office for National Statistics. The City of London shape is © OpenStreetMap contributors.")}
         </p>
       </div>
       <div>
@@ -101,16 +102,16 @@ export function CountyMap() {
           <article className="rounded-card border border-ink/15 bg-cream p-4">
             <h3 className="font-serif text-3xl text-russet">{county.name}</h3>
             <p className="mt-3">
-              <span className="font-semibold">Main town or city. </span>
+              <span className="font-semibold">{tr("Main town or city. ")}</span>
               {county.town}
             </p>
             <p className="mt-2">
-              <span className="font-semibold">The land. </span>
-              {county.land}
+              <span className="font-semibold">{tr("The land. ")}</span>
+              {tr(county.land)}
             </p>
             <ul className="mt-3 list-disc space-y-2 pl-5">
               {county.facts.map((fact) => (
-                <li key={fact}>{fact}</li>
+                <li key={fact}>{tr(fact)}</li>
               ))}
             </ul>
             {linked.length > 0 ? (
@@ -126,7 +127,7 @@ export function CountyMap() {
             ) : null}
           </article>
         ) : null}
-        <h3 className="mt-6 font-serif text-2xl text-yew">Every county</h3>
+        <h3 className="mt-6 font-serif text-2xl text-yew">{tr("Every county")}</h3>
         <ul className="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2">
           {[...countyShapes]
             .sort((a, b) => a.name.localeCompare(b.name))

@@ -1,8 +1,10 @@
 import { useNavigate } from "@tanstack/react-router";
 import { useState } from "react";
+import { useTr } from "@/i18n/locale";
 import { isFullName } from "@/lib/find";
 
 export function SearchBox({ initial = "" }: { initial?: string }) {
+  const tr = useTr();
   const navigate = useNavigate();
   const [text, setText] = useState(initial);
   const [draft, setDraft] = useState<string | null>(null);
@@ -26,13 +28,13 @@ export function SearchBox({ initial = "" }: { initial?: string }) {
       }}
     >
       <label className="block font-semibold" htmlFor="site-search">
-        Search
+        {tr("Search")}
       </label>
       <input
         id="site-search"
         value={text}
         autoComplete="off"
-        placeholder="A person, a place, or a county"
+        placeholder={tr("A person, a place, or a county")}
         onChange={(event) => {
           const next = event.target.value;
           setText(next);
@@ -43,7 +45,9 @@ export function SearchBox({ initial = "" }: { initial?: string }) {
       />
       {draft ? (
         <div className="mt-3 flex flex-wrap items-center gap-3 rounded-lg border border-yew/30 bg-yew/10 p-3">
-          <code className="font-mono text-base text-ink">search {draft}</code>
+          <code className="font-mono text-base text-ink">
+            {tr("search")} {draft}
+          </code>
           <button
             type="button"
             className="min-h-11 rounded-lg bg-russet px-4 font-semibold text-cream"
@@ -51,7 +55,7 @@ export function SearchBox({ initial = "" }: { initial?: string }) {
               void navigate({ to: "/search", search: { q: draft } });
             }}
           >
-            Send
+            {tr("Send")}
           </button>
         </div>
       ) : null}

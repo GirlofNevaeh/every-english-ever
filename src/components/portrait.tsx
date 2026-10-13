@@ -1,5 +1,6 @@
 import type { Person, RoleId } from "@/data/types";
 import { pictures } from "@/data/pictures";
+import { fill, useTr } from "@/i18n/locale";
 import { Photo } from "./photo";
 
 function hash(value: string) {
@@ -31,6 +32,7 @@ function RoleMark({ role }: { role: RoleId }) {
 }
 
 export function Portrait({ person }: { person: Person }) {
+  const tr = useTr();
   const picture = person.picture ? pictures[person.picture] : undefined;
   if (picture) {
     return (
@@ -38,10 +40,10 @@ export function Portrait({ person }: { person: Person }) {
         <Photo
           picture={picture}
           contain
-          alt={`${person.name}. ${picture.kind === "painting" ? "A painting or an old drawing." : "A photograph."}`}
+          alt={`${person.name}. ${tr(picture.kind === "painting" ? "A painting or an old drawing." : "A photograph.")}`}
         />
         {picture.kind === "painting" ? (
-          <p className="mt-2 text-sm">This is a painting or an old drawing, not a photograph.</p>
+          <p className="mt-2 text-sm">{tr("This is a painting or an old drawing, not a photograph.")}</p>
         ) : null}
       </div>
     );
@@ -58,7 +60,7 @@ export function Portrait({ person }: { person: Person }) {
         </g>
       </svg>
       <figcaption className="mt-2 text-sm">
-        A drawing, not a photograph. The mark stands for {roleLabel[person.role]}.
+        {fill(tr("A drawing, not a photograph. The mark stands for {mark}."), { mark: tr(roleLabel[person.role]) })}
       </figcaption>
     </figure>
   );
