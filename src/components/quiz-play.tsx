@@ -43,6 +43,8 @@ export function QuizPlay() {
   const [round, setRound] = useState<"main" | "sudden">("main");
   const [sudden, setSudden] = useState<QuizQuestion | null>(null);
   const timer = useRef<number | null>(null);
+  const teamsRef = useRef(teams);
+  teamsRef.current = teams;
 
   useEffect(() => {
     return () => {
@@ -59,7 +61,10 @@ export function QuizPlay() {
     setPhase("ask");
     setPicked(null);
     setScore(0);
-    setTeams(freshTeams(teamCount));
+    setTeams((current) => {
+      const base = current.length === teamCount ? current : freshTeams(teamCount);
+      return base.map((team) => ({ ...team, score: 0, choice: null }));
+    });
     setSudden(null);
     setRound("main");
     setStarted(true);
@@ -100,22 +105,22 @@ export function QuizPlay() {
       }
       return;
     }
-    setTeams((current) => {
-      const scored = current.map((team) =>
-        question && team.choice === question.answer ? { ...team, score: team.score + 1, choice: null } : { ...team, choice: null },
-      );
-      if (round === "sudden") {
-        setPhase("done");
-        return scored;
-      }
-      if (index + 1 >= run.length) {
-        window.setTimeout(() => finishClass(scored), 0);
-        return scored;
-      }
-      setIndex((value) => value + 1);
-      setPhase("ask");
-      return scored;
-    });
+    if (!question) return;
+    const scored = teamsRef.current.map((team) =>
+      team.choice === question.answer ? { ...team, score: team.score + 1, choice: null } : { ...team, choice: null },
+    );
+    if (round === "sudden") {
+      setTeams(scored);
+      setPhase("done");
+      return;
+    }
+    if (index + 1 >= run.length) {
+      finishClass(scored);
+      return;
+    }
+    setTeams(scored);
+    setIndex((value) => value + 1);
+    setPhase("ask");
   }
 
   function chooseSolo(choice: number) {
@@ -128,14 +133,13 @@ export function QuizPlay() {
 
   function chooseTeam(teamId: string, choice: number) {
     if (phase !== "ask" || !question) return;
-    setTeams((current) => {
-      const next = current.map((team) => (team.id === teamId ? { ...team, choice } : team));
-      if (next.every((team) => team.choice !== null)) {
-        setPhase("feedback");
-        schedule(afterFeedback);
-      }
-      return next;
-    });
+    const next = teamsRef.current.map((team) => (team.id === teamId ? { ...team, choice } : team));
+    teamsRef.current = next;
+    setTeams(next);
+    if (next.every((team) => team.choice !== null)) {
+      setPhase("feedback");
+      schedule(afterFeedback);
+    }
   }
 
   if (!started) {
