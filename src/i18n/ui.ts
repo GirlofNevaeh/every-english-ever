@@ -137,6 +137,12 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     Stories: "Sgeulachdan",
     "A history of England for children": "Eachdraidh Shasainn do chloinn",
     "Read it aloud. Share it in class.": "Leugh e os àrd. Roinn e sa chlas.",
+    "Seventy years as queen": "Seachdad bliadhna mar bhanrigh",
+    "Queen Elizabeth II was queen of the United Kingdom for seventy years. Children knew her bright hats and her corgis.":
+      "Bha Banrigh Ealasaid II na banrigh air an Rìoghachd Aonaichte fad seachdad bliadhna. Bha a h-ad dathte agus a corgis aithnichte do chloinn.",
+    "Cartoon of Queen Elizabeth II in a hat, with two corgis": "Cartùn de Bhanrigh Ealasaid II le ad, agus dà chorgi",
+    "Queen Elizabeth II.": "Banrigh Ealasaid II.",
+    "A cartoon drawn for this page.": "Cartùn a chaidh a tharraing don duilleag seo.",
     "England is one country of the United Kingdom. It has its own history and its own counties. It does not have a separate official anthem. God Save the King is the anthem of the United Kingdom, not of England alone.":
       "Tha Sasainn na aon dùthaich den Rìoghachd Aonaichte. Tha a h-eachdraidh fhèin aice agus a siorrachdan fhèin. Chan eil òran-nàiseanta oifigeil fa leth aice. Is e God Save the King òran na Rìoghachd Aonaichte, chan e òran Sasainn a-mhàin.",
     "For schools": "Airson sgoiltean",
@@ -289,6 +295,12 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     Stories: "Straeon",
     "A history of England for children": "Hanes Lloegr i blant",
     "Read it aloud. Share it in class.": "Darllenwch ef yn uchel. Rhannwch ef yn y dosbarth.",
+    "Seventy years as queen": "Deng mlynedd a thrigain yn frenhines",
+    "Queen Elizabeth II was queen of the United Kingdom for seventy years. Children knew her bright hats and her corgis.":
+      "Bu Frenhines Elizabeth II yn frenhines y Deyrnas Unedig am ddeng mlynedd a thrigain. Roedd plant yn adnabod ei hetiau llachar a'i chorgis.",
+    "Cartoon of Queen Elizabeth II in a hat, with two corgis": "Cartŵn o'r Frenhines Elizabeth II mewn het, gyda dau gorgi",
+    "Queen Elizabeth II.": "Y Frenhines Elizabeth II.",
+    "A cartoon drawn for this page.": "Cartŵn a dynnwyd ar gyfer y dudalen hon.",
     "England is one country of the United Kingdom. It has its own history and its own counties. It does not have a separate official anthem. God Save the King is the anthem of the United Kingdom, not of England alone.":
       "Mae Lloegr yn un wlad o'r Deyrnas Unedig. Mae ganddi ei hanes ei hun a'i siroedd ei hun. Nid oes ganddi anthem swyddogol ar wahân. God Save the King yw anthem y Deyrnas Unedig, nid anthem Lloegr yn unig.",
     "For schools": "I ysgolion",
@@ -441,6 +453,12 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     Stories: "Scéalta",
     "A history of England for children": "Stair Shasana do pháistí",
     "Read it aloud. Share it in class.": "Léigh os ard é. Roinn sa rang é.",
+    "Seventy years as queen": "Seachtó bliain mar bhanríon",
+    "Queen Elizabeth II was queen of the United Kingdom for seventy years. Children knew her bright hats and her corgis.":
+      "Ba í an Bhanríon Eilís II banríon na Ríochta Aontaithe ar feadh seachtó bliain. Bhí a hataí geala agus a corganna ar eolas ag páistí.",
+    "Cartoon of Queen Elizabeth II in a hat, with two corgis": "Cartún den Bhanríon Eilís II le hata, agus dhá chorga",
+    "Queen Elizabeth II.": "An Bhanríon Eilís II.",
+    "A cartoon drawn for this page.": "Cartún a tarraingíodh don leathanach seo.",
     "England is one country of the United Kingdom. It has its own history and its own counties. It does not have a separate official anthem. God Save the King is the anthem of the United Kingdom, not of England alone.":
       "Tír amháin den Ríocht Aontaithe is ea Sasana. Tá a stair féin agus a contaetha féin aici. Níl amhrán náisiúnta oifigiúil ar leith aici. Is é God Save the King amhrán na Ríochta Aontaithe, ní amhrán Shasana amháin.",
     "For schools": "Do scoileanna",
@@ -593,6 +611,12 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     Stories: "Histoires",
     "A history of England for children": "Une histoire de l'Angleterre pour les enfants",
     "Read it aloud. Share it in class.": "Lis-le à voix haute. Partage-le en classe.",
+    "Seventy years as queen": "Soixante-dix ans comme reine",
+    "Queen Elizabeth II was queen of the United Kingdom for seventy years. Children knew her bright hats and her corgis.":
+      "Élisabeth II a été reine du Royaume-Uni pendant soixante-dix ans. Les enfants connaissaient ses chapeaux vifs et ses corgis.",
+    "Cartoon of Queen Elizabeth II in a hat, with two corgis": "Dessin de la reine Élisabeth II avec un chapeau et deux corgis",
+    "Queen Elizabeth II.": "La reine Élisabeth II.",
+    "A cartoon drawn for this page.": "Un dessin fait pour cette page.",
     "England is one country of the United Kingdom. It has its own history and its own counties. It does not have a separate official anthem. God Save the King is the anthem of the United Kingdom, not of England alone.":
       "L'Angleterre est l'un des pays du Royaume-Uni. Elle a sa propre histoire et ses propres comtés. Elle n'a pas d'hymne officiel à elle seule. God Save the King est l'hymne du Royaume-Uni, pas celui de l'Angleterre seule.",
     "For schools": "Pour les écoles",
@@ -745,6 +769,12 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     Stories: "Storie",
     "A history of England for children": "Una storia dell'Inghilterra per bambini",
     "Read it aloud. Share it in class.": "Leggilo ad alta voce. Condividilo in classe.",
+    "Seventy years as queen": "Settant'anni da regina",
+    "Queen Elizabeth II was queen of the United Kingdom for seventy years. Children knew her bright hats and her corgis.":
+      "Elisabetta II è stata regina del Regno Unito per settant'anni. I bambini conoscevano i suoi cappelli vivaci e i suoi corgi.",
+    "Cartoon of Queen Elizabeth II in a hat, with two corgis": "Cartone della regina Elisabetta II con un cappello e due corgi",
+    "Queen Elizabeth II.": "La regina Elisabetta II.",
+    "A cartoon drawn for this page.": "Un cartone disegnato per questa pagina.",
     "England is one country of the United Kingdom. It has its own history and its own counties. It does not have a separate official anthem. God Save the King is the anthem of the United Kingdom, not of England alone.":
       "L'Inghilterra è uno dei paesi del Regno Unito. Ha una storia propria e contee proprie. Non ha un inno ufficiale tutto suo. God Save the King è l'inno del Regno Unito, non solo dell'Inghilterra.",
     "For schools": "Per le scuole",
@@ -897,6 +927,12 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     Stories: "Historias",
     "A history of England for children": "Una historia de Inglaterra para niños",
     "Read it aloud. Share it in class.": "Léelo en voz alta. Compártelo en clase.",
+    "Seventy years as queen": "Setenta años como reina",
+    "Queen Elizabeth II was queen of the United Kingdom for seventy years. Children knew her bright hats and her corgis.":
+      "Isabel II fue reina del Reino Unido durante setenta años. Los niños conocían sus sombreros de colores y sus corgis.",
+    "Cartoon of Queen Elizabeth II in a hat, with two corgis": "Dibujo de la reina Isabel II con sombrero y dos corgis",
+    "Queen Elizabeth II.": "La reina Isabel II.",
+    "A cartoon drawn for this page.": "Un dibujo hecho para esta página.",
     "England is one country of the United Kingdom. It has its own history and its own counties. It does not have a separate official anthem. God Save the King is the anthem of the United Kingdom, not of England alone.":
       "Inglaterra es un país del Reino Unido. Tiene su propia historia y sus propios condados. No tiene un himno oficial aparte. God Save the King es el himno del Reino Unido, no solo de Inglaterra.",
     "For schools": "Para escuelas",
@@ -1049,6 +1085,12 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     Stories: "Истории",
     "A history of England for children": "История Англии для детей",
     "Read it aloud. Share it in class.": "Читайте вслух. Делитесь в классе.",
+    "Seventy years as queen": "Семьдесят лет королева",
+    "Queen Elizabeth II was queen of the United Kingdom for seventy years. Children knew her bright hats and her corgis.":
+      "Елизавета II была королевой Соединённого Королевства семьдесят лет. Дети знали её яркие шляпы и её корги.",
+    "Cartoon of Queen Elizabeth II in a hat, with two corgis": "Рисунок королевы Елизаветы II в шляпе, с двумя корги",
+    "Queen Elizabeth II.": "Королева Елизавета II.",
+    "A cartoon drawn for this page.": "Рисунок для этой страницы.",
     "England is one country of the United Kingdom. It has its own history and its own counties. It does not have a separate official anthem. God Save the King is the anthem of the United Kingdom, not of England alone.":
       "Англия — одна из стран Соединённого Королевства. У неё своя история и свои графства. У неё нет отдельного официального гимна. God Save the King — гимн Соединённого Королевства, а не только Англии.",
     "For schools": "Для школ",

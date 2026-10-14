@@ -39,25 +39,51 @@ function Home() {
 
   return (
     <main id="content" className="mx-auto w-full max-w-5xl px-4 pb-16 pt-6">
-      <p className="font-semibold text-yew">{tr("A history of England for children")}</p>
-      <h1 className="mt-2 max-w-3xl font-serif text-4xl text-russet sm:text-6xl">{tr("Read it aloud. Share it in class.")}</h1>
-      <p className="mt-4 max-w-2xl text-xl">
-        {tr("England has its own story. These pages use short sentences, real places, and people you can name.")}
-      </p>
-      <div className="mt-6 flex flex-wrap items-end gap-4">
-        <SearchBox />
-        <button
-          type="button"
-          className="min-h-11 rounded-lg bg-yew px-4 font-semibold text-cream"
-          onClick={() => {
-            const person = people[Math.floor(Math.random() * people.length)];
-            if (!person) return;
-            void navigate({ to: "/people/$slug", params: { slug: person.slug } });
-          }}
-        >
-          {tr("Surprise me")}
-        </button>
-      </div>
+      <section className="overflow-hidden rounded-card border-2 border-gold/70 bg-[#fff8e8] shadow-[0_8px_0_0_#1F4D3A]">
+        <div className="grid items-center md:grid-cols-[1.15fr_0.85fr]">
+          <div className="p-5 sm:p-8">
+            <p className="inline-flex items-center rounded-full bg-gold px-3 py-1 text-sm font-semibold text-ink">
+              {tr("Seventy years as queen")}
+            </p>
+            <p className="mt-3 font-semibold text-yew">{tr("A history of England for children")}</p>
+            <h1 className="mt-2 max-w-3xl font-serif text-4xl text-russet sm:text-6xl">
+              {tr("Read it aloud. Share it in class.")}
+            </h1>
+            <p className="mt-4 max-w-2xl text-xl">
+              {tr("England has its own story. These pages use short sentences, real places, and people you can name.")}
+            </p>
+            <p className="mt-3 max-w-2xl">
+              {tr(
+                "Queen Elizabeth II was queen of the United Kingdom for seventy years. Children knew her bright hats and her corgis.",
+              )}
+            </p>
+            <div className="mt-6 flex flex-wrap items-end gap-4">
+              <SearchBox />
+              <button
+                type="button"
+                className="min-h-11 rounded-lg bg-yew px-4 font-semibold text-cream"
+                onClick={() => {
+                  const person = people[Math.floor(Math.random() * people.length)];
+                  if (!person) return;
+                  void navigate({ to: "/people/$slug", params: { slug: person.slug } });
+                }}
+              >
+                {tr("Surprise me")}
+              </button>
+            </div>
+          </div>
+          <figure className="order-first px-4 pt-5 md:order-none md:px-6 md:py-6">
+            <img
+              src="/art/queen-elizabeth-ii.svg"
+              alt={tr("Cartoon of Queen Elizabeth II in a hat, with two corgis")}
+              className="mx-auto w-full max-w-sm"
+            />
+            <figcaption className="mt-1 text-center text-sm">
+              {tr("Queen Elizabeth II.")} {tr("A cartoon drawn for this page.")}
+            </figcaption>
+          </figure>
+        </div>
+      </section>
 
       <section className="mt-12 grid gap-6 md:grid-cols-2">
         <article>

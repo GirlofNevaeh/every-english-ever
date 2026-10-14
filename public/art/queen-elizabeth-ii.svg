@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 640" role="img" aria-hidden="true">
+  <defs>
+    <radialGradient id="glow" cx="48%" cy="38%" r="62%">
+      <stop offset="0%" stop-color="#FFF8E4" />
+      <stop offset="100%" stop-color="#F0D48A" />
+    </radialGradient>
+  </defs>
+  <circle cx="280" cy="292" r="228" fill="url(#glow)" stroke="#D4A017" stroke-width="8" />
+  <path d="M86 118l14 22 24-8-10 22 20 14-24 4 2 24-18-16-18 16 2-24-24-4 20-14-10-22 24 8z" fill="#D4A017" />
+  <path d="M452 150l10 16 18-6-8 16 15 10-18 3 2 18-14-12-14 12 2-18-18-3 15-10-8-16 18 6z" fill="#8C2F39" />
+
+  <!-- coat -->
+  <path d="M168 360c-28 70-18 168 28 196h168c46-28 56-126 28-196-28-16-62-28-112-28s-84 12-112 28z" fill="#8C2F39" />
+  <path d="M250 348c8 70 6 150 0 196h60c-6-46-8-126 0-196-10 8-50 8-60 0z" fill="#F4F0E6" />
+  <circle cx="280" cy="430" r="7" fill="#F7E7C8" />
+  <circle cx="280" cy="468" r="7" fill="#F7E7C8" />
+  <circle cx="280" cy="506" r="7" fill="#F7E7C8" />
+  <circle cx="214" cy="400" r="16" fill="#D4A017" />
+  <circle cx="214" cy="400" r="7" fill="#F4F0E6" />
+
+  <!-- waving arm -->
+  <path d="M348 372c36-8 62-48 78-28" fill="none" stroke="#8C2F39" stroke-width="28" stroke-linecap="round" />
+  <g transform="translate(400 292)">
+    <ellipse cx="36" cy="46" rx="22" ry="18" fill="#FFF8EA" />
+    <rect x="10" y="8" width="12" height="36" rx="6" fill="#FFF8EA" />
+    <rect x="24" y="0" width="12" height="42" rx="6" fill="#FFF8EA" />
+    <rect x="38" y="6" width="12" height="36" rx="6" fill="#FFF8EA" />
+    <rect x="50" y="16" width="11" height="26" rx="6" fill="#FFF8EA" />
+  </g>
+
+  <!-- neck and curls -->
+  <rect x="246" y="292" width="68" height="62" rx="24" fill="#F4CBA8" />
+  <g fill="#C5C9D1">
+    <circle cx="176" cy="268" r="28" />
+    <circle cx="164" cy="304" r="24" />
+    <circle cx="184" cy="336" r="20" />
+    <circle cx="384" cy="268" r="28" />
+    <circle cx="396" cy="304" r="24" />
+    <circle cx="376" cy="336" r="20" />
+  </g>
+  <g fill="#F7E7C8">
+    <circle cx="214" cy="352" r="6" />
+    <circle cx="232" cy="362" r="6" />
+    <circle cx="250" cy="368" r="6" />
+    <circle cx="268" cy="370" r="6" />
+    <circle cx="286" cy="370" r="6" />
+    <circle cx="304" cy="368" r="6" />
+    <circle cx="322" cy="360" r="6" />
+    <circle cx="340" cy="348" r="6" />
+  </g>
+
+  <!-- face -->
+  <ellipse cx="280" cy="236" rx="92" ry="108" fill="#F4CBA8" />
+  <ellipse cx="214" cy="258" rx="18" ry="12" fill="#E7A090" opacity="0.55" />
+  <ellipse cx="346" cy="258" rx="18" ry="12" fill="#E7A090" opacity="0.55" />
+  <path d="M214 214c10-16 28-20 40-8" fill="none" stroke="#C9A18C" stroke-width="3" stroke-linecap="round" />
+  <path d="M306 206c12-12 30-8 40 8" fill="none" stroke="#C9A18C" stroke-width="3" stroke-linecap="round" />
+  <ellipse cx="242" cy="236" rx="16" ry="12" fill="#fff" />
+  <ellipse cx="318" cy="236" rx="16" ry="12" fill="#fff" />
+  <circle cx="246" cy="238" r="6.5" fill="#3D342C" />
+  <circle cx="322" cy="238" r="6.5" fill="#3D342C" />
+  <circle cx="248" cy="236" r="2" fill="#fff" />
+  <circle cx="324" cy="236" r="2" fill="#fff" />
+  <path d="M274 252c4 10 12 10 16 0" fill="none" stroke="#C48978" stroke-width="3" stroke-linecap="round" />
+  <path d="M236 286c16 28 72 28 88 0" fill="none" stroke="#A33B45" stroke-width="4" stroke-linecap="round" />
+  <path d="M248 286c10 16 54 16 64 0" fill="#F7E7C8" />
+
+  <!-- hat -->
+  <ellipse cx="280" cy="168" rx="168" ry="34" fill="#1F4D3A" />
+  <path d="M156 164c6-78 62-112 124-112s118 34 124 112z" fill="#1F4D3A" />
+  <path d="M176 150c18-52 48-74 104-74 34 0 64 10 86 32" fill="none" stroke="#2E6A50" stroke-width="10" stroke-linecap="round" />
+  <rect x="150" y="150" width="260" height="18" rx="8" fill="#D4A017" />
+  <g transform="translate(398 118)">
+    <ellipse cx="8" cy="18" rx="24" ry="14" fill="#D4A017" transform="rotate(-24 8 18)" />
+    <ellipse cx="46" cy="14" rx="24" ry="14" fill="#E0B43A" transform="rotate(20 46 14)" />
+    <circle cx="26" cy="18" r="9" fill="#8C2F39" />
+    <path d="M16 30l-6 26 18-10z" fill="#D4A017" />
+    <path d="M34 30l12 24-18-8z" fill="#E0B43A" />
+  </g>
+
+  <g transform="translate(62 468)">
+    <ellipse cx="78" cy="78" rx="70" ry="32" fill="#C68642" />
+    <ellipse cx="78" cy="90" rx="42" ry="16" fill="#F7E7C8" />
+    <ellipse cx="28" cy="102" rx="12" ry="8" fill="#C68642" />
+    <ellipse cx="58" cy="106" rx="12" ry="8" fill="#C68642" />
+    <ellipse cx="108" cy="106" rx="12" ry="8" fill="#C68642" />
+    <ellipse cx="136" cy="100" rx="12" ry="8" fill="#C68642" />
+    <path d="M132 64c18-8 28-2 30 12-16 4-26 2-30-12z" fill="#C68642" />
+    <circle cx="36" cy="48" r="28" fill="#C68642" />
+    <ellipse cx="36" cy="60" rx="16" ry="12" fill="#F7E7C8" />
+    <path d="M16 28l8 22h16l-4-24z" fill="#C68642" />
+    <path d="M34 24l10 24h14l-6-26z" fill="#A86B30" />
+    <circle cx="26" cy="46" r="3.2" fill="#1A1A1A" />
+    <circle cx="42" cy="44" r="3.2" fill="#1A1A1A" />
+    <ellipse cx="34" cy="58" rx="5" ry="4" fill="#3A2A22" />
+    <path d="M28 66q6 8 14 0" fill="none" stroke="#3A2A22" stroke-width="2" stroke-linecap="round" />
+  </g>
+  <g transform="translate(330 478)">
+    <ellipse cx="86" cy="72" rx="72" ry="30" fill="#C68642" />
+    <ellipse cx="90" cy="84" rx="40" ry="14" fill="#F7E7C8" />
+    <ellipse cx="40" cy="96" rx="11" ry="8" fill="#C68642" />
+    <ellipse cx="72" cy="100" rx="11" ry="8" fill="#C68642" />
+    <ellipse cx="112" cy="100" rx="11" ry="8" fill="#C68642" />
+    <ellipse cx="142" cy="94" rx="11" ry="8" fill="#C68642" />
+    <path d="M148 56c16-6 26 2 24 16-14 2-22 0-24-16z" fill="#A86B30" />
+    <circle cx="48" cy="42" r="28" fill="#C68642" />
+    <ellipse cx="50" cy="54" rx="16" ry="12" fill="#F7E7C8" />
+    <path d="M28 20l8 22h16l-4-24z" fill="#C68642" />
+    <path d="M46 16l10 24h14l-6-26z" fill="#A86B30" />
+    <circle cx="40" cy="40" r="3.2" fill="#1A1A1A" />
+    <circle cx="56" cy="38" r="3.2" fill="#1A1A1A" />
+    <ellipse cx="48" cy="52" rx="5" ry="4" fill="#3A2A22" />
+    <path d="M42 60q6 8 14 0" fill="none" stroke="#3A2A22" stroke-width="2" stroke-linecap="round" />
+  </g>
+</svg>
