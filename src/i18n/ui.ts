@@ -144,7 +144,7 @@ export const ui: Record<LocaleId, Record<string, string>> = {
       "Tha Every English Person Ever na eachdraidh Shasainn do chloinn Aois 5-12. Tha na seantansan goirid, gus an leugh sibh iad os àrd sa chlas.",
     "Inside you will find people, real places, the counties of England, beliefs, a timeline, a quiz, work sheets, and projects.":
       "A-staigh gheibh sibh daoine, àiteachan fìor, siorrachdan Shasainn, creideamhan, loidhne-tìm, ceistean, duilleagan obrach, agus pròiseactan.",
-    "The pages stay closed until you enter an access key.": "Tha na duilleagan dùinte gus an cuir sibh a-steach iuchair-inntrigidh.",
+    "The home page is open. Every other page stays closed until you enter an access key.": "Tha an duilleag-dhachaigh fosgailte. Tha a h-uile duilleag eile dùinte gus an cuir sibh a-steach iuchair-inntrigidh.",
     "Purchase an access key at": "Ceannaich iuchair-inntrigidh aig",
     "Then type the key below.": "An uair sin sgrìobh an iuchair gu h-ìosal.",
     "Buy an access key": "Ceannaich iuchair-inntrigidh",
@@ -153,6 +153,7 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     "That key does not open this site. Check the letters, or buy a key at everyschoolever.com.":
       "Chan eil an iuchair sin a' fosgladh na làraich seo. Thoir sùil air na litrichean, no ceannaich iuchair aig everyschoolever.com.",
     "The key stays on this device until you lock it.": "Fanaidh an iuchair air an inneal seo gus an glas sibh e.",
+    "The other pages are locked": "Tha na duilleagan eile glaiste",
     Lock: "Glas",
   },
   cy: {
@@ -295,7 +296,7 @@ export const ui: Record<LocaleId, Record<string, string>> = {
       "Mae Every English Person Ever yn hanes Lloegr i blant Oed 5-12. Mae'r brawddegau'n fyr, fel y gallwch eu darllen yn uchel yn y dosbarth.",
     "Inside you will find people, real places, the counties of England, beliefs, a timeline, a quiz, work sheets, and projects.":
       "Y tu mewn fe welwch bobl, lleoedd go iawn, siroedd Lloegr, credoau, llinell amser, cwis, taflenni gwaith, a phrosiectau.",
-    "The pages stay closed until you enter an access key.": "Mae'r tudalennau ar gau nes i chi roi allwedd fynediad.",
+    "The home page is open. Every other page stays closed until you enter an access key.": "Mae'r dudalen gartref ar agor. Mae pob tudalen arall ar gau nes i chi roi allwedd fynediad.",
     "Purchase an access key at": "Prynwch allwedd fynediad yn",
     "Then type the key below.": "Yna teipiwch yr allwedd isod.",
     "Buy an access key": "Prynu allwedd fynediad",
@@ -304,6 +305,7 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     "That key does not open this site. Check the letters, or buy a key at everyschoolever.com.":
       "Nid yw'r allwedd honno'n agor y wefan hon. Gwiriwch y llythrennau, neu prynwch allwedd yn everyschoolever.com.",
     "The key stays on this device until you lock it.": "Mae'r allwedd yn aros ar y ddyfais hon nes i chi ei chloi.",
+    "The other pages are locked": "Mae'r tudalennau eraill dan glo",
     Lock: "Clo",
   },
   ga: {
@@ -446,7 +448,7 @@ export const ui: Record<LocaleId, Record<string, string>> = {
       "Is stair Shasana do pháistí Aois 5-12 é Every English Person Ever. Tá na habairtí gearr, ionas gur féidir iad a léamh os ard sa rang.",
     "Inside you will find people, real places, the counties of England, beliefs, a timeline, a quiz, work sheets, and projects.":
       "Taobh istigh gheobhaidh tú daoine, áiteanna fíor, contaetha Shasana, creidimh, amlíne, tráth na gceist, bileoga oibre, agus tionscadail.",
-    "The pages stay closed until you enter an access key.": "Fanann na leathanaigh dúnta go dtí go gcuireann tú eochair rochtana isteach.",
+    "The home page is open. Every other page stays closed until you enter an access key.": "Tá an leathanach baile oscailte. Fanann gach leathanach eile dúnta go dtí go gcuireann tú eochair rochtana isteach.",
     "Purchase an access key at": "Ceannaigh eochair rochtana ag",
     "Then type the key below.": "Ansin clóscríobh an eochair thíos.",
     "Buy an access key": "Ceannaigh eochair rochtana",
@@ -455,6 +457,7 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     "That key does not open this site. Check the letters, or buy a key at everyschoolever.com.":
       "Ní osclaíonn an eochair sin an suíomh seo. Seiceáil na litreacha, nó ceannaigh eochair ag everyschoolever.com.",
     "The key stays on this device until you lock it.": "Fanann an eochair ar an ngléas seo go dtí go nglasálann tú é.",
+    "The other pages are locked": "Tá na leathanaigh eile faoi ghlas",
     Lock: "Glas",
   },
   fr: {
@@ -597,7 +600,7 @@ export const ui: Record<LocaleId, Record<string, string>> = {
       "Every English Person Ever est une histoire de l'Angleterre pour les enfants d'Âge 5-12. Les phrases sont courtes, pour les lire à voix haute en classe.",
     "Inside you will find people, real places, the counties of England, beliefs, a timeline, a quiz, work sheets, and projects.":
       "À l'intérieur : des personnes, de vrais lieux, les comtés d'Angleterre, des croyances, une frise, un quiz, des fiches et des projets.",
-    "The pages stay closed until you enter an access key.": "Les pages restent fermées tant que vous n'entrez pas une clé d'accès.",
+    "The home page is open. Every other page stays closed until you enter an access key.": "La page d'accueil est ouverte. Les autres pages restent fermées tant que vous n'entrez pas une clé d'accès.",
     "Purchase an access key at": "Achetez une clé d'accès sur",
     "Then type the key below.": "Ensuite, écrivez la clé ci-dessous.",
     "Buy an access key": "Acheter une clé d'accès",
@@ -606,6 +609,7 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     "That key does not open this site. Check the letters, or buy a key at everyschoolever.com.":
       "Cette clé n'ouvre pas ce site. Vérifiez les lettres, ou achetez une clé sur everyschoolever.com.",
     "The key stays on this device until you lock it.": "La clé reste sur cet appareil jusqu'à ce que vous le verrouilliez.",
+    "The other pages are locked": "Les autres pages sont fermées",
     Lock: "Verrou",
   },
   it: {
@@ -748,7 +752,7 @@ export const ui: Record<LocaleId, Record<string, string>> = {
       "Every English Person Ever è una storia dell'Inghilterra per bambini di Età 5-12. Le frasi sono corte, da leggere ad alta voce in classe.",
     "Inside you will find people, real places, the counties of England, beliefs, a timeline, a quiz, work sheets, and projects.":
       "Dentro trovi persone, luoghi veri, le contee d'Inghilterra, credenze, una linea del tempo, un quiz, schede e progetti.",
-    "The pages stay closed until you enter an access key.": "Le pagine restano chiuse finché non inserisci una chiave di accesso.",
+    "The home page is open. Every other page stays closed until you enter an access key.": "La pagina iniziale è aperta. Le altre pagine restano chiuse finché non inserisci una chiave di accesso.",
     "Purchase an access key at": "Compra una chiave di accesso su",
     "Then type the key below.": "Poi scrivi la chiave qui sotto.",
     "Buy an access key": "Compra una chiave di accesso",
@@ -757,6 +761,7 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     "That key does not open this site. Check the letters, or buy a key at everyschoolever.com.":
       "Questa chiave non apre questo sito. Controlla le lettere, oppure compra una chiave su everyschoolever.com.",
     "The key stays on this device until you lock it.": "La chiave resta su questo dispositivo finché non lo blocchi.",
+    "The other pages are locked": "Le altre pagine sono chiuse",
     Lock: "Blocca",
   },
   es: {
@@ -899,7 +904,7 @@ export const ui: Record<LocaleId, Record<string, string>> = {
       "Every English Person Ever es una historia de Inglaterra para niños de Edad 5-12. Las frases son cortas, para leerlas en voz alta en clase.",
     "Inside you will find people, real places, the counties of England, beliefs, a timeline, a quiz, work sheets, and projects.":
       "Dentro hay personas, lugares reales, los condados de Inglaterra, creencias, una línea de tiempo, un cuestionario, fichas y proyectos.",
-    "The pages stay closed until you enter an access key.": "Las páginas siguen cerradas hasta que escribes una clave de acceso.",
+    "The home page is open. Every other page stays closed until you enter an access key.": "La página de inicio está abierta. Las demás páginas siguen cerradas hasta que escribes una clave de acceso.",
     "Purchase an access key at": "Compra una clave de acceso en",
     "Then type the key below.": "Luego escribe la clave abajo.",
     "Buy an access key": "Comprar una clave de acceso",
@@ -908,6 +913,7 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     "That key does not open this site. Check the letters, or buy a key at everyschoolever.com.":
       "Esa clave no abre este sitio. Revisa las letras, o compra una clave en everyschoolever.com.",
     "The key stays on this device until you lock it.": "La clave se queda en este aparato hasta que lo bloquees.",
+    "The other pages are locked": "Las demás páginas están cerradas",
     Lock: "Bloquear",
   },
   ru: {
@@ -1050,7 +1056,7 @@ export const ui: Record<LocaleId, Record<string, string>> = {
       "Every English Person Ever — история Англии для детей 5–12 лет. Фразы короткие, чтобы читать вслух в классе.",
     "Inside you will find people, real places, the counties of England, beliefs, a timeline, a quiz, work sheets, and projects.":
       "Внутри: люди, настоящие места, графства Англии, вера, лента времени, викторина, листы и проекты.",
-    "The pages stay closed until you enter an access key.": "Страницы закрыты, пока вы не введёте ключ доступа.",
+    "The home page is open. Every other page stays closed until you enter an access key.": "Главная страница открыта. Остальные страницы закрыты, пока вы не введёте ключ доступа.",
     "Purchase an access key at": "Купите ключ доступа на",
     "Then type the key below.": "Затем введите ключ ниже.",
     "Buy an access key": "Купить ключ доступа",
@@ -1059,6 +1065,7 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     "That key does not open this site. Check the letters, or buy a key at everyschoolever.com.":
       "Этот ключ не открывает сайт. Проверьте буквы или купите ключ на everyschoolever.com.",
     "The key stays on this device until you lock it.": "Ключ остаётся на этом устройстве, пока вы его не закроете.",
+    "The other pages are locked": "Остальные страницы закрыты",
     Lock: "Замок",
   },
 };

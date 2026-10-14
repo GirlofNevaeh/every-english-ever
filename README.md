@@ -18,3 +18,11 @@ Import this repository. No database and no environment variables are required.
 
 Sign-in stays off unless you set `VITE_AUTH_ENABLED=true`. This site does not use accounts.
 
+## Access keys
+
+The home page is open. Every other page stays closed until a key is entered on that device. Buyers are sent to [everyschoolever.com](https://everyschoolever.com). A key looks like `EEE-XXXX-XXXX-XXXX`. The check lives in the browser. It is not a server receipt from the shop.
+
+```bash
+node --experimental-strip-types scripts/make-access-key.mjs 5
+```
+
