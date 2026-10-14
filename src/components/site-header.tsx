@@ -1,7 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useLayoutEffect, useRef } from "react";
 import { LanguageButton } from "@/components/language-button";
-import { useLock } from "@/components/access-gate";
 import { useTr } from "@/i18n/locale";
 
 const tabs = [
@@ -18,7 +17,6 @@ const tabs = [
 
 export function SiteHeader() {
   const tr = useTr();
-  const lock = useLock();
   const ref = useRef<HTMLElement>(null);
 
   useLayoutEffect(() => {
@@ -43,17 +41,10 @@ export function SiteHeader() {
       </a>
       <div className="mx-auto w-full max-w-5xl px-3 py-2">
         <LanguageButton />
-        <div className="mt-2 flex items-center justify-between gap-3">
-          <Link to="/" className="min-w-0 font-serif text-xl leading-tight text-russet sm:text-3xl">
+        <div className="mt-2">
+          <Link to="/" className="font-serif text-xl leading-tight text-russet sm:text-3xl">
             {tr("Every English Person Ever")}
           </Link>
-          <button
-            type="button"
-            className="min-h-11 shrink-0 rounded-lg border border-yew/30 px-3 text-sm font-semibold text-yew"
-            onClick={lock}
-          >
-            {tr("Lock")}
-          </button>
         </div>
         <nav aria-label={tr("Sections")} className="mt-2 grid grid-cols-3 gap-1.5">
           {tabs.map((tab) => (
