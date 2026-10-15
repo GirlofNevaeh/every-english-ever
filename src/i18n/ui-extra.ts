@@ -64,7 +64,7 @@ export const extra: Record<Exclude<LocaleId, "en" | "en-US">, Record<string, str
       "Cleachd na faclan seo ann an seantansan mu Shasainn. Seall air duilleagan nan siorrachdan ma tha feum agad air fìrinn.",
     "Draw a line from each person to a place on this site. The two lists are not in the same order.":
       "Tarraing loidhne bho gach neach gu àite air an làrach seo. Chan eil an dà liosta san aon òrdugh.",
-    "Fill the gaps. The Time page can help you. Read from the older times toward now.":
+    "Fill the gaps. The Time page can help you. Read from the older times towards now.":
       "Lìon na beàrnan. Cuidichidh duilleag na h-Ùine thu. Leugh o na linntean as sine a dh'ionnsaigh an-diugh.",
     "England has no anthem of its own. God Save the King belongs to the whole United Kingdom. Some people like to sing the hymn Jerusalem. Listen to a recording your teacher chooses. Talk about one instrument you hear, and one feeling in the music.":
       "Chan eil òran-nàiseanta aig Sasainn leatha fhèin. Buinidh God Save the King ris an Rìoghachd Aonaichte air fad. Is toil le cuid an laoidh Jerusalem a sheinn. Èist ri clàradh a thaghas an tidsear agad. Bruidhinn air aon ionnsramaid a chluinneas tu, agus air aon fhaireachdainn sa cheòl.",
@@ -133,7 +133,7 @@ export const extra: Record<Exclude<LocaleId, "en" | "en-US">, Record<string, str
       "Defnyddiwch y geiriau hyn mewn brawddegau am Loegr. Edrychwch ar dudalennau'r siroedd os oes angen ffaith arnoch.",
     "Draw a line from each person to a place on this site. The two lists are not in the same order.":
       "Tynnwch linell o bob person i le ar y wefan hon. Nid yw'r ddwy restr yn yr un drefn.",
-    "Fill the gaps. The Time page can help you. Read from the older times toward now.":
+    "Fill the gaps. The Time page can help you. Read from the older times towards now.":
       "Llenwch y bylchau. Gall tudalen Amser eich helpu. Darllenwch o'r amseroedd hynaf tuag at nawr.",
     "England has no anthem of its own. God Save the King belongs to the whole United Kingdom. Some people like to sing the hymn Jerusalem. Listen to a recording your teacher chooses. Talk about one instrument you hear, and one feeling in the music.":
       "Nid oes gan Loegr anthem ar ei phen ei hun. Mae God Save the King yn perthyn i'r Deyrnas Unedig gyfan. Mae rhai pobl yn hoffi canu'r emyn Jerusalem. Gwrandewch ar recordiad y mae eich athro yn ei ddewis. Siaradwch am un offeryn a glywch, ac am un teimlad yn y gerddoriaeth.",
@@ -202,7 +202,7 @@ export const extra: Record<Exclude<LocaleId, "en" | "en-US">, Record<string, str
       "Úsáid na focail seo in abairtí faoi Shasana. Féach ar leathanaigh na gcontaetha má tá fíric uait.",
     "Draw a line from each person to a place on this site. The two lists are not in the same order.":
       "Tarraing líne ó gach duine go háit ar an suíomh seo. Níl an dá liosta san ord céanna.",
-    "Fill the gaps. The Time page can help you. Read from the older times toward now.":
+    "Fill the gaps. The Time page can help you. Read from the older times towards now.":
       "Líon na bearnaí. Cabhróidh leathanach na hAma leat. Léigh ó na hamanna is sine i dtreo an lae inniu.",
     "England has no anthem of its own. God Save the King belongs to the whole United Kingdom. Some people like to sing the hymn Jerusalem. Listen to a recording your teacher chooses. Talk about one instrument you hear, and one feeling in the music.":
       "Níl amhrán náisiúnta ar leith ag Sasana. Baineann God Save the King leis an Ríocht Aontaithe ar fad. Is maith le daoine áirithe an iomann Jerusalem a chanadh. Éist le taifead a roghnaíonn do mhúinteoir. Labhair faoi ionstraim amháin a chloiseann tú, agus faoi mhothú amháin sa cheol.",
@@ -271,7 +271,7 @@ export const extra: Record<Exclude<LocaleId, "en" | "en-US">, Record<string, str
       "Utilise ces mots dans des phrases sur l'Angleterre. Regarde les pages des comtés si tu as besoin d'un fait.",
     "Draw a line from each person to a place on this site. The two lists are not in the same order.":
       "Relie chaque personne à un lieu de ce site. Les deux listes ne sont pas dans le même ordre.",
-    "Fill the gaps. The Time page can help you. Read from the older times toward now.":
+    "Fill the gaps. The Time page can help you. Read from the older times towards now.":
       "Remplis les trous. La page Temps peut t'aider. Lis des temps les plus anciens vers maintenant.",
     "England has no anthem of its own. God Save the King belongs to the whole United Kingdom. Some people like to sing the hymn Jerusalem. Listen to a recording your teacher chooses. Talk about one instrument you hear, and one feeling in the music.":
       "L'Angleterre n'a pas d'hymne à elle seule. God Save the King appartient à tout le Royaume-Uni. Certaines personnes aiment chanter le cantique Jerusalem. Écoute un enregistrement choisi par ton enseignant. Parle d'un instrument que tu entends, et d'un sentiment dans la musique.",
@@ -340,7 +340,7 @@ export const extra: Record<Exclude<LocaleId, "en" | "en-US">, Record<string, str
       "Usa queste parole in frasi sull'Inghilterra. Guarda le pagine delle contee se ti serve un fatto.",
     "Draw a line from each person to a place on this site. The two lists are not in the same order.":
       "Traccia una linea da ogni persona a un luogo di questo sito. Le due liste non sono nello stesso ordine.",
-    "Fill the gaps. The Time page can help you. Read from the older times toward now.":
+    "Fill the gaps. The Time page can help you. Read from the older times towards now.":
       "Riempi gli spazi. La pagina Tempo può aiutarti. Leggi dai tempi più antichi verso ora.",
     "England has no anthem of its own. God Save the King belongs to the whole United Kingdom. Some people like to sing the hymn Jerusalem. Listen to a recording your teacher chooses. Talk about one instrument you hear, and one feeling in the music.":
       "L'Inghilterra non ha un inno tutto suo. God Save the King appartiene a tutto il Regno Unito. Ad alcune persone piace cantare l'inno Jerusalem. Ascolta una registrazione scelta dal tuo insegnante. Parla di uno strumento che senti, e di un sentimento nella musica.",
@@ -409,7 +409,7 @@ export const extra: Record<Exclude<LocaleId, "en" | "en-US">, Record<string, str
       "Usa estas palabras en frases sobre Inglaterra. Mira las páginas de los condados si necesitas un dato.",
     "Draw a line from each person to a place on this site. The two lists are not in the same order.":
       "Traza una línea de cada persona a un lugar de este sitio. Las dos listas no están en el mismo orden.",
-    "Fill the gaps. The Time page can help you. Read from the older times toward now.":
+    "Fill the gaps. The Time page can help you. Read from the older times towards now.":
       "Rellena los huecos. La página Tiempo puede ayudarte. Lee desde los tiempos más antiguos hacia ahora.",
     "England has no anthem of its own. God Save the King belongs to the whole United Kingdom. Some people like to sing the hymn Jerusalem. Listen to a recording your teacher chooses. Talk about one instrument you hear, and one feeling in the music.":
       "Inglaterra no tiene un himno solo suyo. God Save the King pertenece a todo el Reino Unido. A algunas personas les gusta cantar el himno Jerusalem. Escucha una grabación que elija tu maestro. Habla de un instrumento que oigas y de un sentimiento en la música.",
@@ -478,7 +478,7 @@ export const extra: Record<Exclude<LocaleId, "en" | "en-US">, Record<string, str
       "Используйте эти слова в предложениях об Англии. Если нужен факт, посмотрите страницы графств.",
     "Draw a line from each person to a place on this site. The two lists are not in the same order.":
       "Проведите линию от каждого человека к месту на этом сайте. Два списка идут не в одном порядке.",
-    "Fill the gaps. The Time page can help you. Read from the older times toward now.":
+    "Fill the gaps. The Time page can help you. Read from the older times towards now.":
       "Заполните пропуски. Страница «Время» может помочь. Читайте от давних времён к нашим.",
     "England has no anthem of its own. God Save the King belongs to the whole United Kingdom. Some people like to sing the hymn Jerusalem. Listen to a recording your teacher chooses. Talk about one instrument you hear, and one feeling in the music.":
       "У Англии нет своего гимна. God Save the King принадлежит всей Великобритании. Некоторым нравится петь гимн Jerusalem. Послушайте запись, которую выберет учитель. Расскажите об одном инструменте, который слышите, и об одном чувстве в музыке.",

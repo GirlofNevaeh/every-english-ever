@@ -55,10 +55,7 @@ function ProjectsPage() {
                 <li key={step}>{tr(step)}</li>
               ))}
             </ol>
-            <p className="mt-3">
-              <span className="font-semibold">{tr("You are done when. ")}</span>
-              {tr(project.done)}
-            </p>
+            <p className="mt-3">{tr(project.done)}</p>
           </article>
         ))}
       </div>

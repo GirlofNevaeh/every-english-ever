@@ -5,7 +5,7 @@ export const projects: Project[] = [
     id: "r-one",
     stage: "reception",
     kind: "individual",
-    title: "Draw a place and tell it",
+    title: "Draw a place and tell about it",
     need: ["Paper", "Crayons or pencils", "The Places pages"],
     steps: [
       "Pick one place on this site.",
@@ -47,7 +47,7 @@ export const projects: Project[] = [
     title: "North or south?",
     need: ["Six place cards you make", "The place map"],
     steps: [
-      "Make a card for six places from this site.",
+      "Make one card for each of six places from this site.",
       "Look at the map. North is at the top.",
       "Sort the cards into a north pile and a south pile. Say why.",
     ],

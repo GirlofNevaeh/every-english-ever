@@ -89,7 +89,7 @@ function WorkPage() {
 
       <section className="sheet mt-8 rounded-card border border-ink/15 p-4">
         <h2 className="font-serif text-3xl text-russet">{tr("Timeline blanks")}</h2>
-        <p className="mt-2">{tr("Fill the gaps. The Time page can help you. Read from the older times toward now.")}</p>
+        <p className="mt-2">{tr("Fill the gaps. The Time page can help you. Read from the older times towards now.")}</p>
         <ol className="mt-4 list-decimal space-y-4 pl-5">
           {blanks.map((line) => (
             <li key={line}>{tr(line)}</li>

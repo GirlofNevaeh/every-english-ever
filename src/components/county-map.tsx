@@ -102,11 +102,11 @@ export function CountyMap() {
           <article className="rounded-card border border-ink/15 bg-cream p-4">
             <h3 className="font-serif text-3xl text-russet">{county.name}</h3>
             <p className="mt-3">
-              <span className="font-semibold">{tr("Main town or city. ")}</span>
+              <span className="font-semibold">{tr("Main town or city: ")}</span>
               {county.town}
             </p>
             <p className="mt-2">
-              <span className="font-semibold">{tr("The land. ")}</span>
+              <span className="font-semibold">{tr("The land: ")}</span>
               {tr(county.land)}
             </p>
             <ul className="mt-3 list-disc space-y-2 pl-5">

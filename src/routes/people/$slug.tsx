@@ -39,7 +39,7 @@ function PersonPage() {
       </div>
       {person.places.length > 0 ? (
         <p className="mt-4">
-          <span className="font-semibold">{tr("Places. ")}</span>
+          <span className="font-semibold">{tr("Places: ")}</span>
           {person.places.join(", ")}
         </p>
       ) : null}
