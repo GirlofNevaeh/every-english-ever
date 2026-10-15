@@ -3,7 +3,7 @@ import { useState, type FormEvent } from "react";
 import { useTr } from "@/i18n/locale";
 import { isAccessKey, storeAccessKey } from "@/lib/access-key";
 
-const shop = "https://everyschoolever.com";
+const shop = "https://www.everyschoolever.com/pricing?plan=";
 
 export function Paywall({ onUnlock }: { onUnlock: () => void }) {
   const tr = useTr();

@@ -20,7 +20,7 @@ Sign-in stays off unless you set `VITE_AUTH_ENABLED=true`. This site does not us
 
 ## Access keys
 
-The home page is open. Every other page stays closed until a key is entered on that device. Buyers are sent to [everyschoolever.com](https://everyschoolever.com). A key looks like `EEE-XXXX-XXXX-XXXX`. The check lives in the browser. It is not a server receipt from the shop.
+The home page is open. Every other page stays closed until a key is entered on that device. The buy button goes to [the pricing page](https://www.everyschoolever.com/pricing?plan=) with no plan or price attached. A key looks like `EEE-XXXX-XXXX-XXXX`. The check lives in the browser. It is not a server receipt from the shop.
 
 ```bash
 node --experimental-strip-types scripts/make-access-key.mjs 5
