@@ -2,6 +2,7 @@ import { createRootRoute, HeadContent, Outlet, Scripts } from "@tanstack/react-r
 import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import { AccessGate, AccessProvider } from "@/components/access-gate";
+import { CookieNotice } from "@/components/cookie-notice";
 import { SiteHeader } from "@/components/site-header";
 import { LocaleProvider, useTr } from "@/i18n/locale";
 import appCss from "../styles.css?url";
@@ -42,6 +43,7 @@ export const Route = createRootRoute({
               <AccessGate>
                 <Outlet />
               </AccessGate>
+              <CookieNotice />
             </AccessProvider>
           </AuthProvider>
         </LocaleProvider>

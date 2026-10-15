@@ -160,6 +160,10 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     "That key does not open this site. Check the letters, or buy a key at everyschoolever.com.":
       "Chan eil an iuchair sin a' fosgladh na làraich seo. Thoir sùil air na litrichean, no ceannaich iuchair aig everyschoolever.com.",
     "The key stays on this device until you lock it.": "Fanaidh an iuchair air an inneal seo gus an glas sibh e.",
+    Cookies: "Briosgaidean",
+    "This device remembers your language, and your access key if you enter one. There are no tracking cookies.":
+      "Tha an inneal seo a' cuimhneachadh air do chànan, agus air d' iuchair-inntrigidh ma chuireas tu a-steach tè. Chan eil briosgaidean tracadh ann.",
+    OK: "Ceart",
     "The other pages are locked": "Tha na duilleagan eile glaiste",
     Lock: "Glas",
   },
@@ -318,6 +322,10 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     "That key does not open this site. Check the letters, or buy a key at everyschoolever.com.":
       "Nid yw'r allwedd honno'n agor y wefan hon. Gwiriwch y llythrennau, neu prynwch allwedd yn everyschoolever.com.",
     "The key stays on this device until you lock it.": "Mae'r allwedd yn aros ar y ddyfais hon nes i chi ei chloi.",
+    Cookies: "Cwcis",
+    "This device remembers your language, and your access key if you enter one. There are no tracking cookies.":
+      "Mae'r ddyfais hon yn cofio eich iaith, a'ch allwedd fynediad os rhowch un. Nid oes cwcis olrhain.",
+    OK: "Iawn",
     "The other pages are locked": "Mae'r tudalennau eraill dan glo",
     Lock: "Clo",
   },
@@ -476,6 +484,10 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     "That key does not open this site. Check the letters, or buy a key at everyschoolever.com.":
       "Ní osclaíonn an eochair sin an suíomh seo. Seiceáil na litreacha, nó ceannaigh eochair ag everyschoolever.com.",
     "The key stays on this device until you lock it.": "Fanann an eochair ar an ngléas seo go dtí go nglasálann tú é.",
+    Cookies: "Fianáin",
+    "This device remembers your language, and your access key if you enter one. There are no tracking cookies.":
+      "Cuimhníonn an gléas seo ar do theanga, agus ar d'eochair rochtana má chuireann tú ceann isteach. Níl fianáin rianaithe ann.",
+    OK: "Ceart go leor",
     "The other pages are locked": "Tá na leathanaigh eile faoi ghlas",
     Lock: "Glas",
   },
@@ -634,6 +646,10 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     "That key does not open this site. Check the letters, or buy a key at everyschoolever.com.":
       "Cette clé n'ouvre pas ce site. Vérifiez les lettres, ou achetez une clé sur everyschoolever.com.",
     "The key stays on this device until you lock it.": "La clé reste sur cet appareil jusqu'à ce que vous le verrouilliez.",
+    Cookies: "Cookies",
+    "This device remembers your language, and your access key if you enter one. There are no tracking cookies.":
+      "Cet appareil retient votre langue, et votre clé d'accès si vous en entrez une. Il n'y a pas de cookies de suivi.",
+    OK: "D'accord",
     "The other pages are locked": "Les autres pages sont fermées",
     Lock: "Verrou",
   },
@@ -792,6 +808,10 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     "That key does not open this site. Check the letters, or buy a key at everyschoolever.com.":
       "Questa chiave non apre questo sito. Controlla le lettere, oppure compra una chiave su everyschoolever.com.",
     "The key stays on this device until you lock it.": "La chiave resta su questo dispositivo finché non lo blocchi.",
+    Cookies: "Cookie",
+    "This device remembers your language, and your access key if you enter one. There are no tracking cookies.":
+      "Questo dispositivo ricorda la tua lingua e la chiave di accesso, se la inserisci. Non ci sono cookie di tracciamento.",
+    OK: "Va bene",
     "The other pages are locked": "Le altre pagine sono chiuse",
     Lock: "Blocca",
   },
@@ -950,6 +970,10 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     "That key does not open this site. Check the letters, or buy a key at everyschoolever.com.":
       "Esa clave no abre este sitio. Revisa las letras, o compra una clave en everyschoolever.com.",
     "The key stays on this device until you lock it.": "La clave se queda en este aparato hasta que lo bloquees.",
+    Cookies: "Cookies",
+    "This device remembers your language, and your access key if you enter one. There are no tracking cookies.":
+      "Este aparato recuerda tu idioma y tu clave de acceso, si escribes una. No hay cookies de seguimiento.",
+    OK: "De acuerdo",
     "The other pages are locked": "Las demás páginas están cerradas",
     Lock: "Bloquear",
   },
@@ -1108,6 +1132,10 @@ export const ui: Record<LocaleId, Record<string, string>> = {
     "That key does not open this site. Check the letters, or buy a key at everyschoolever.com.":
       "Этот ключ не открывает сайт. Проверьте буквы или купите ключ на everyschoolever.com.",
     "The key stays on this device until you lock it.": "Ключ остаётся на этом устройстве, пока вы его не закроете.",
+    Cookies: "Cookie",
+    "This device remembers your language, and your access key if you enter one. There are no tracking cookies.":
+      "Это устройство запоминает ваш язык и ключ доступа, если вы его введёте. Отслеживающих cookie нет.",
+    OK: "Хорошо",
     "The other pages are locked": "Остальные страницы закрыты",
     Lock: "Замок",
   },
