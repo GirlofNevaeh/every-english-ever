@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { questions, type QuizQuestion } from "@/data/quiz";
 import { fill, useTr } from "@/i18n/locale";
+import { armQuizSounds, playCheer, playFart } from "@/lib/quiz-sounds";
 
 type Team = { id: string; name: string; score: number; choice: number | null };
 
@@ -47,6 +48,7 @@ export function QuizPlay() {
   teamsRef.current = teams;
 
   useEffect(() => {
+    armQuizSounds();
     return () => {
       if (timer.current) window.clearTimeout(timer.current);
     };
@@ -126,7 +128,12 @@ export function QuizPlay() {
   function chooseSolo(choice: number) {
     if (phase !== "ask" || !question) return;
     setPicked(choice);
-    if (choice === question.answer) setScore((value) => value + 1);
+    if (choice === question.answer) {
+      setScore((value) => value + 1);
+      playCheer();
+    } else {
+      playFart();
+    }
     setPhase("feedback");
     schedule(afterFeedback);
   }
@@ -137,6 +144,8 @@ export function QuizPlay() {
     teamsRef.current = next;
     setTeams(next);
     if (next.every((team) => team.choice !== null)) {
+      if (next.some((team) => team.choice === question.answer)) playCheer();
+      if (next.some((team) => team.choice !== question.answer)) playFart();
       setPhase("feedback");
       schedule(afterFeedback);
     }
