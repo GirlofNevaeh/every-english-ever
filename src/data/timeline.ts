@@ -25,7 +25,7 @@ export const timeline: TimeEvent[] = [
     id: "romans-leave",
     when: "Early 400s",
     title: "Romans leave",
-    text: "In the early 400s the Roman armies left. Local leaders had to manage on their own.",
+    text: "In the early 400s, the Roman armies left. Local leaders had to manage on their own.",
   },
   {
     id: "kingdoms",
@@ -61,7 +61,7 @@ export const timeline: TimeEvent[] = [
     id: "tudors",
     when: "1485–1603",
     title: "The Tudor court",
-    text: "In the Tudor court, music, plays, and portraits mattered, and the ruler's word was heavy.",
+    text: "In the Tudor court, music, plays, and portraits mattered, and the ruler's word carried great weight.",
     picture: "city-of-london",
   },
   {

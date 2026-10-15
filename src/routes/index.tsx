@@ -113,7 +113,7 @@ function Home() {
           </div>
           <PictureBlock id="parish-church" alt={tr("All Saints' Church at Earls Barton, a parish church in Northamptonshire")} />
           <p className="mt-3">
-            {tr("Parish churches sit in many villages. England is also home to other faiths. Stories such as Arthur and Robin Hood are stories.")}{" "}
+            {tr("Parish churches sit in many villages. England is also home to other faiths. Stories such as Arthur and Robin Hood are tales, not reports we can check.")}{" "}
             <Link className="underline decoration-russet" to="/beliefs">
               {tr("Read the beliefs page")}
             </Link>

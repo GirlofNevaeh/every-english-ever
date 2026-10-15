@@ -55,7 +55,7 @@ export const counties: County[] = [
     slug: "cheshire",
     name: "Cheshire",
     town: "Chester",
-    land: "Dairy country, salt towns, and the plain toward the Mersey.",
+    land: "Dairy country, salt towns, and the plain towards the Mersey.",
     facts: [
       "Chester has Roman walls and rows of black-and-white shops.",
       "Cheshire has long been known for cheese and dairy farms.",
@@ -308,7 +308,7 @@ export const counties: County[] = [
     land: "Gentle hills and the valley of the River Nene.",
     facts: [
       "Northampton is the county town. It was long known for boots and shoes.",
-      "The River Nene flows through the county toward the Wash.",
+      "The River Nene flows through the county towards the Wash.",
     ],
   },
   {

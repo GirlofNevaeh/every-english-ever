@@ -54,7 +54,7 @@ export const places: Place[] = [
       "York is a walled city on the rivers Ouse and Foss.",
       "The Romans called their fort Eboracum.",
       "York Minster is one of the great churches of England.",
-      "In the kingdoms, York was a capital in the north.",
+      "In the time of the kingdoms, York was a capital in the north.",
     ],
   },
   {
@@ -163,7 +163,7 @@ export const places: Place[] = [
     lat: 51.132,
     picture: "dover-cliffs",
     lines: [
-      "The white cliffs of Dover face the sea toward France.",
+      "The white cliffs of Dover face the sea towards France.",
       "They are made of chalk.",
       "On a clear day you can see ships in the Channel.",
       "The cliffs have been a landmark for sailors for a very long time.",
@@ -235,7 +235,7 @@ export const places: Place[] = [
     lines: [
       "Durham stands on a rocky peninsula in a loop of the River Wear.",
       "The cathedral and the castle share the hill.",
-      "In the kingdoms, Cuthbert's community came here.",
+      "In the time of the kingdoms, Cuthbert's community came here.",
       "The view from the river path is one of the great sights of England.",
     ],
   },

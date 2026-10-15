@@ -48,8 +48,8 @@ export const extra: Record<Exclude<LocaleId, "en" | "en-US">, Record<string, str
     "Warwick Castle": "Caisteal Warwick",
     "Castles kept towns and river crossings. Warwick Castle still stands by the Avon. Durham's castle shares a hill with the cathedral.":
       "Chum caistealan bailtean agus àiteachan-dol-thairis aibhne. Tha Caisteal Warwick fhathast ri taobh an Avon. Tha caisteal Durham a' roinn cnoc leis a' chathair-eaglais.",
-    "Parish churches sit in many villages. England is also home to other faiths. Stories such as Arthur and Robin Hood are stories.":
-      "Tha eaglaisean paraiste ann am mòran bhailtean beaga. Tha creideamhan eile ann an Sasainn cuideachd. Is e sgeulachdan a th' ann an Arthur agus Robin Hood.",
+    "Parish churches sit in many villages. England is also home to other faiths. Stories such as Arthur and Robin Hood are tales, not reports we can check.":
+      "Tha eaglaisean paraiste ann am mòran bhailtean beaga. Tha creideamhan eile ann an Sasainn cuideachd. Is e sgeulachdan a th' ann an Arthur agus Robin Hood, chan e aithisgean a ghabhas dearbhadh.",
     "Stone cottages in an English village": "Bothain cloiche ann am baile beag Sasannach",
     "People live in villages, towns, and cities. They go to school, to shops, and to parks. Stone cottages, terraces, and new streets are all part of England.":
       "Tha daoine a' fuireach ann am bailtean beaga, bailtean, agus cathraichean. Thèid iad don sgoil, do bhùthan, agus do phàircean. Tha bothain cloiche, taighean-sreatha, agus sràidean ùra uile nam pàirt de Shasainn.",
@@ -117,8 +117,8 @@ export const extra: Record<Exclude<LocaleId, "en" | "en-US">, Record<string, str
     "Warwick Castle": "Castell Warwick",
     "Castles kept towns and river crossings. Warwick Castle still stands by the Avon. Durham's castle shares a hill with the cathedral.":
       "Roedd cestyll yn gwarchod trefi a chroesfannau afonydd. Mae Castell Warwick yn sefyll o hyd wrth yr Avon. Mae castell Durham yn rhannu bryn â'r gadeirlan.",
-    "Parish churches sit in many villages. England is also home to other faiths. Stories such as Arthur and Robin Hood are stories.":
-      "Mae eglwysi plwyf mewn llawer o bentrefi. Mae ffyddiau eraill yn Lloegr hefyd. Straeon yw Arthur a Robin Hood.",
+    "Parish churches sit in many villages. England is also home to other faiths. Stories such as Arthur and Robin Hood are tales, not reports we can check.":
+      "Mae eglwysi plwyf mewn llawer o bentrefi. Mae ffyddiau eraill yn Lloegr hefyd. Straeon yw Arthur a Robin Hood, nid adroddiadau y gallwn eu gwirio.",
     "Stone cottages in an English village": "Bythynnod carreg mewn pentref Seisnig",
     "People live in villages, towns, and cities. They go to school, to shops, and to parks. Stone cottages, terraces, and new streets are all part of England.":
       "Mae pobl yn byw mewn pentrefi, trefi, a dinasoedd. Maen nhw'n mynd i'r ysgol, i siopau, ac i barciau. Mae bythynnod carreg, tai teras, a strydoedd newydd i gyd yn rhan o Loegr.",
@@ -186,8 +186,8 @@ export const extra: Record<Exclude<LocaleId, "en" | "en-US">, Record<string, str
     "Warwick Castle": "Caisleán Warwick",
     "Castles kept towns and river crossings. Warwick Castle still stands by the Avon. Durham's castle shares a hill with the cathedral.":
       "Choinnigh caisleáin bailte agus trasrianta abhann. Tá Caisleán Warwick fós cois na hAvon. Roinneann caisleán Durham cnoc leis an ardeaglais.",
-    "Parish churches sit in many villages. England is also home to other faiths. Stories such as Arthur and Robin Hood are stories.":
-      "Tá eaglaisí paróiste i mórán sráidbhailte. Tá creidimh eile i Sasana freisin. Scéalta is ea Arthur agus Robin Hood.",
+    "Parish churches sit in many villages. England is also home to other faiths. Stories such as Arthur and Robin Hood are tales, not reports we can check.":
+      "Tá eaglaisí paróiste i mórán sráidbhailte. Tá creidimh eile i Sasana freisin. Scéalta is ea Arthur agus Robin Hood, ní tuairiscí is féidir a sheiceáil.",
     "Stone cottages in an English village": "Tithe cloiche i sráidbhaile Sasanach",
     "People live in villages, towns, and cities. They go to school, to shops, and to parks. Stone cottages, terraces, and new streets are all part of England.":
       "Cónaíonn daoine i sráidbhailte, i mbailte, agus i gcathracha. Téann siad ar scoil, chuig siopaí, agus chuig páirceanna. Is cuid de Shasana iad tithe cloiche, tithe sraithe, agus sráideanna nua.",
@@ -255,8 +255,8 @@ export const extra: Record<Exclude<LocaleId, "en" | "en-US">, Record<string, str
     "Warwick Castle": "Le château de Warwick",
     "Castles kept towns and river crossings. Warwick Castle still stands by the Avon. Durham's castle shares a hill with the cathedral.":
       "Les châteaux gardaient les villes et les passages de rivière. Le château de Warwick est toujours au bord de l'Avon. Le château de Durham partage une colline avec la cathédrale.",
-    "Parish churches sit in many villages. England is also home to other faiths. Stories such as Arthur and Robin Hood are stories.":
-      "Des églises de paroisse se trouvent dans beaucoup de villages. L'Angleterre abrite aussi d'autres fois. Des histoires comme Arthur et Robin Hood sont des histoires.",
+    "Parish churches sit in many villages. England is also home to other faiths. Stories such as Arthur and Robin Hood are tales, not reports we can check.":
+      "Des églises paroissiales se trouvent dans beaucoup de villages. L'Angleterre abrite aussi d'autres croyances. Les récits d'Arthur et de Robin des Bois sont des contes, pas des rapports que l'on peut vérifier.",
     "Stone cottages in an English village": "Maisons de pierre dans un village anglais",
     "People live in villages, towns, and cities. They go to school, to shops, and to parks. Stone cottages, terraces, and new streets are all part of England.":
       "Les gens vivent dans des villages, des villes et des cités. Ils vont à l'école, aux magasins et dans les parcs. Maisons de pierre, maisons en rangée et rues neuves font tous partie de l'Angleterre.",
@@ -324,8 +324,8 @@ export const extra: Record<Exclude<LocaleId, "en" | "en-US">, Record<string, str
     "Warwick Castle": "Il castello di Warwick",
     "Castles kept towns and river crossings. Warwick Castle still stands by the Avon. Durham's castle shares a hill with the cathedral.":
       "I castelli custodivano città e passaggi sul fiume. Il castello di Warwick è ancora sull'Avon. Il castello di Durham divide una collina con la cattedrale.",
-    "Parish churches sit in many villages. England is also home to other faiths. Stories such as Arthur and Robin Hood are stories.":
-      "Le chiese parrocchiali stanno in molti villaggi. In Inghilterra ci sono anche altre fedi. Storie come Artù e Robin Hood sono storie.",
+    "Parish churches sit in many villages. England is also home to other faiths. Stories such as Arthur and Robin Hood are tales, not reports we can check.":
+      "Le chiese parrocchiali stanno in molti villaggi. In Inghilterra ci sono anche altre fedi. I racconti di Artù e Robin Hood sono storie, non resoconti che possiamo controllare.",
     "Stone cottages in an English village": "Cottages di pietra in un villaggio inglese",
     "People live in villages, towns, and cities. They go to school, to shops, and to parks. Stone cottages, terraces, and new streets are all part of England.":
       "La gente vive in villaggi, paesi e città. Va a scuola, nei negozi e nei parchi. Cottages di pietra, case a schiera e strade nuove fanno tutti parte dell'Inghilterra.",
@@ -393,8 +393,8 @@ export const extra: Record<Exclude<LocaleId, "en" | "en-US">, Record<string, str
     "Warwick Castle": "El castillo de Warwick",
     "Castles kept towns and river crossings. Warwick Castle still stands by the Avon. Durham's castle shares a hill with the cathedral.":
       "Los castillos guardaban pueblos y pasos de río. El castillo de Warwick sigue junto al Avon. El castillo de Durham comparte una colina con la catedral.",
-    "Parish churches sit in many villages. England is also home to other faiths. Stories such as Arthur and Robin Hood are stories.":
-      "Hay iglesias parroquiales en muchos pueblos. Inglaterra también es casa de otras fes. Historias como Arturo y Robin Hood son historias.",
+    "Parish churches sit in many villages. England is also home to other faiths. Stories such as Arthur and Robin Hood are tales, not reports we can check.":
+      "Hay iglesias parroquiales en muchos pueblos. Inglaterra también es hogar de otras creencias. Los relatos de Arturo y Robin Hood son cuentos, no informes que podamos comprobar.",
     "Stone cottages in an English village": "Casas de piedra en un pueblo inglés",
     "People live in villages, towns, and cities. They go to school, to shops, and to parks. Stone cottages, terraces, and new streets are all part of England.":
       "La gente vive en pueblos, villas y ciudades. Va a la escuela, a las tiendas y a los parques. Las casas de piedra, las casas en hilera y las calles nuevas son parte de Inglaterra.",
@@ -462,8 +462,8 @@ export const extra: Record<Exclude<LocaleId, "en" | "en-US">, Record<string, str
     "Warwick Castle": "Уорикский замок",
     "Castles kept towns and river crossings. Warwick Castle still stands by the Avon. Durham's castle shares a hill with the cathedral.":
       "Замки хранили города и переправы. Уорикский замок до сих пор стоит у Эйвона. Замок Дарема делит холм с собором.",
-    "Parish churches sit in many villages. England is also home to other faiths. Stories such as Arthur and Robin Hood are stories.":
-      "Приходские церкви стоят во многих деревнях. В Англии есть и другие веры. Истории об Артуре и Робине Гуде — это истории.",
+    "Parish churches sit in many villages. England is also home to other faiths. Stories such as Arthur and Robin Hood are tales, not reports we can check.":
+      "Приходские церкви стоят во многих деревнях. В Англии есть и другие веры. Рассказы об Артуре и Робине Гуде — это сказки, а не отчёты, которые можно проверить.",
     "Stone cottages in an English village": "Каменные дома в английской деревне",
     "People live in villages, towns, and cities. They go to school, to shops, and to parks. Stone cottages, terraces, and new streets are all part of England.":
       "Люди живут в деревнях, городках и городах. Они ходят в школу, в магазины и в парки. Каменные дома, ряды домов и новые улицы — всё это часть Англии.",

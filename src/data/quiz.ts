@@ -86,7 +86,7 @@ const handcrafted: Draft[] = [
   },
   {
     id: "leibniz",
-    prompt: "Isaac Newton worked on a kind of maths called calculus. Who else, in Germany, also built it?",
+    prompt: "Isaac Newton worked on a kind of maths called calculus. Who else, in Germany, also worked it out?",
     correct: "Gottfried Leibniz",
     wrong: ["Hans von Ohain", "Thomas Edison", "James Watt"],
   },
@@ -259,7 +259,7 @@ const handcrafted: Draft[] = [
   {
     id: "tudor-court",
     prompt: "Which sentence fits the Tudor court?",
-    correct: "Music, plays, and portraits mattered, and the ruler's word was heavy.",
+    correct: "Music, plays, and portraits mattered, and the ruler's word carried great weight.",
     wrong: [
       "Everyone already had a jet engine.",
       "Parliament met only in York Minster.",
