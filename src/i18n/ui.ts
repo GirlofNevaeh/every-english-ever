@@ -4,6 +4,7 @@ import { extra } from "./ui-extra";
 /** Short interface lines. The English key is what the pages pass to tr(). */
 export const ui: Record<LocaleId, Record<string, string>> = {
   en: {},
+  "en-US": {},
   gd: {
     ...extra.gd,
     "Skip to content": "Leum chun na susbaint",

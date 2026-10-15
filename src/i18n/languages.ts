@@ -1,5 +1,6 @@
 export const languages = [
-  { id: "en", native: "English", english: "English", html: "en" },
+  { id: "en", native: "English", english: "British English", html: "en" },
+  { id: "en-US", native: "American English", english: "American English", html: "en-US" },
   { id: "gd", native: "Gàidhlig", english: "Scots Gaelic", html: "gd" },
   { id: "cy", native: "Cymraeg", english: "Welsh", html: "cy" },
   { id: "ga", native: "Gaeilge", english: "Irish", html: "ga" },

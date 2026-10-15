@@ -1,7 +1,7 @@
 import type { LocaleId } from "./languages";
 
 /** Lines that were still falling back to English. */
-export const extra: Record<Exclude<LocaleId, "en">, Record<string, string>> = {
+export const extra: Record<Exclude<LocaleId, "en" | "en-US">, Record<string, string>> = {
   gd: {
     "Ceremonial counties of England, north at the top": "Siorrachdan deas-ghnàthach Shasainn, tuath aig a' mhullach",
     "Greater London and the City of London": "Lunnainn Mhòr agus Cathair Lunnainn",

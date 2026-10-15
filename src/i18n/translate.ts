@@ -1,3 +1,4 @@
+import { toAmericanEnglish } from "./american";
 import cy from "./catalogs/cy.json" with { type: "json" };
 import es from "./catalogs/es.json" with { type: "json" };
 import fr from "./catalogs/fr.json" with { type: "json" };
@@ -8,7 +9,7 @@ import ru from "./catalogs/ru.json" with { type: "json" };
 import type { LocaleId } from "./languages";
 import { ui } from "./ui";
 
-const catalogs: Record<Exclude<LocaleId, "en">, Record<string, string>> = {
+const catalogs: Record<Exclude<LocaleId, "en" | "en-US">, Record<string, string>> = {
   gd,
   cy,
   ga,
@@ -20,6 +21,7 @@ const catalogs: Record<Exclude<LocaleId, "en">, Record<string, string>> = {
 
 export function translate(locale: LocaleId, text: string) {
   if (!text || locale === "en") return text;
+  if (locale === "en-US") return toAmericanEnglish(text);
   return ui[locale][text] ?? catalogs[locale][text] ?? text;
 }
 
