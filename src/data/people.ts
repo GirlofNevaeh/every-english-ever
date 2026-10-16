@@ -15,6 +15,8 @@ export const people: Person[] = [
       "She led her people against Roman rule.",
       "The stories we have were written by Roman authors. They were her enemies.",
       "We are not sure of every detail.",
+      "Her name is also written Boudicca.",
+      "Roman writers say her army burned Colchester, London, and St Albans. They were her enemies, so we read them with care.",
     ],
   },
   {
@@ -30,6 +32,8 @@ export const people: Person[] = [
       "Kings and monks asked her advice.",
       "A cowherd named Cædmon made songs there.",
       "We are not sure of every story told about her.",
+      "In 664 a meeting at her abbey chose how to set the date of Easter.",
+      "Bede later wrote about her with great respect.",
     ],
   },
   {
@@ -45,6 +49,8 @@ export const people: Person[] = [
       "He wrote a history of the English people.",
       "He also wrote about the stars, the calendar, and the Bible.",
       "He died in 735.",
+      "His history is called the Ecclesiastical History of the English People.",
+      "He used a way of counting years from the birth of Jesus. We still count years that way.",
     ],
   },
   {
@@ -60,6 +66,8 @@ export const people: Person[] = [
       "Mercia was a kingdom in the middle of England.",
       "She was a daughter of Alfred.",
       "She built fortified towns, called burhs, to keep Mercia safe.",
+      "After her husband died, she ruled Mercia herself.",
+      "She worked with her brother Edward, who was king of Wessex.",
     ],
   },
   {
@@ -76,6 +84,8 @@ export const people: Person[] = [
       "He defended Wessex when Viking armies came.",
       "He started schools and had books written in English.",
       "We are not sure about the story of the burnt cakes.",
+      "He made a code of laws and had useful books translated into English.",
+      "A gold jewel found in Somerset is often linked with him. We are not sure he wore it.",
     ],
   },
   {
@@ -91,6 +101,8 @@ export const people: Person[] = [
       "In 927 he ruled over the English kingdoms.",
       "Many people call him the first king of all England.",
       "We are not sure of every border.",
+      "In 937 he won a battle at a place called Brunanburh. We are not sure exactly where it was.",
+      "He gave fine books to churches.",
     ],
   },
   {
@@ -106,6 +118,8 @@ export const people: Person[] = [
       "He began Westminster Abbey.",
       "He was later called a saint.",
       "He died in 1066, the year of a great change.",
+      "He grew up in Normandy, across the sea.",
+      "The Westminster Abbey we see now was built later. His church was older.",
     ],
   },
   {
@@ -120,6 +134,8 @@ export const people: Person[] = [
       "Harold was king of England in 1066.",
       "That same year, William of Normandy brought an army across the sea.",
       "Harold's army lost at Hastings. William became king.",
+      "He was Earl of Wessex before he became king.",
+      "A few days before Hastings, his army had already fought in the north, at Stamford Bridge.",
     ],
   },
   {
@@ -135,6 +151,8 @@ export const people: Person[] = [
       "She wrote about God's love.",
       "Her book is the first we know by a woman in English.",
       "We are not sure of her birth name. She is called Julian after St Julian's church.",
+      "She wrote, 'All shall be well, and all shall be well, and all manner of thing shall be well.'",
+      "People came to her window to ask for advice.",
     ],
   },
   {
@@ -149,6 +167,8 @@ export const people: Person[] = [
       "Geoffrey Chaucer was born in London.",
       "He wrote The Canterbury Tales, stories told by people on the road to Canterbury.",
       "He wrote them in English, at a time when many books were in French or Latin.",
+      "He also worked for the king, not only as a poet.",
+      "He is buried in Westminster Abbey, in the part now called Poets' Corner.",
     ],
   },
   {
@@ -163,6 +183,8 @@ export const people: Person[] = [
       "Margery Kempe lived in King's Lynn, in Norfolk.",
       "She could not write, so she told her life to helpers who wrote it down.",
       "Her book is one of the first in English to tell a person's own life.",
+      "She went on long journeys of faith, including a journey to the Holy Land.",
+      "Her book was lost for centuries. A copy was found again in 1934.",
     ],
   },
   {
@@ -178,6 +200,8 @@ export const people: Person[] = [
       "He gave money for a hospital and for fountains.",
       "The pantomime cat is a story.",
       "We are not sure he ever had that cat.",
+      "He was a cloth merchant, and he was mayor of London more than once.",
+      "He left money for a college and for the city's poor.",
     ],
   },
   {
@@ -199,6 +223,8 @@ export const people: Person[] = [
       "He learned printing in Europe.",
       "In 1476 he set up a press at Westminster and printed books in English.",
       "Printing was already used in Germany and in other lands.",
+      "One of the first books he printed in English was Chaucer's Canterbury Tales.",
+      "He translated some of the books himself.",
     ],
   },
   {
@@ -214,6 +240,8 @@ export const people: Person[] = [
       "He wrote Utopia, about an imagined island and its laws.",
       "He served King Henry VIII.",
       "Later he and the king disagreed, and More's life at court ended.",
+      "Utopia was written in Latin, not in English.",
+      "He would not agree that the king was head of the church.",
     ],
   },
   {
@@ -228,6 +256,8 @@ export const people: Person[] = [
       "Nicholas Hilliard was born in Exeter.",
       "He painted tiny portraits, called miniatures, for Elizabeth I and her court.",
       "People wore them like jewels.",
+      "He trained as a goldsmith, and he worked as one.",
+      "A miniature could be small enough to wear in a locket.",
     ],
   },
   {
@@ -242,6 +272,8 @@ export const people: Person[] = [
       "Thomas Tallis wrote church music in England.",
       "He lived through many changes in worship.",
       "He worked with the composer William Byrd.",
+      "He and William Byrd were given a licence to print music.",
+      "One of his pieces, Spem in alium, is written for forty voices.",
     ],
   },
   {
@@ -258,6 +290,8 @@ export const people: Person[] = [
       "She was queen of England from 1558 to 1603.",
       "She never married. Her court liked plays, music, and fine clothes.",
       "In 1588 a Spanish fleet sailed against England. Storms and English ships kept it from landing.",
+      "Her father was Henry VIII. Her mother was Anne Boleyn.",
+      "She could speak several languages, including Latin and French.",
     ],
   },
   {
@@ -273,6 +307,8 @@ export const people: Person[] = [
       "He wrote plays and poems in London.",
       "People still perform his plays.",
       "We are not sure about some years of his young life.",
+      "About thirty-nine plays are linked with his name. We are not sure he wrote every line alone.",
+      "The Globe was a London theatre where his company played.",
     ],
   },
   {
@@ -287,6 +323,8 @@ export const people: Person[] = [
       "Francis Drake was born in Devon.",
       "He sailed around the world in one long voyage.",
       "He also fought Spanish ships. That was a hard and angry time at sea.",
+      "On the voyage around the world his ship was called the Golden Hind.",
+      "When he came home, Queen Elizabeth I made him a knight.",
     ],
   },
   {
@@ -301,6 +339,8 @@ export const people: Person[] = [
       "Walter Raleigh was a writer and a sailor from Devon.",
       "He tried to start a settlement at Roanoke, across the Atlantic. It did not last.",
       "We are not sure of the tale about his cloak and a puddle.",
+      "While he was a prisoner in the Tower of London, he wrote a history of the world.",
+      "He searched for a rich land he called El Dorado. He did not find it.",
     ],
   },
   {
@@ -315,6 +355,8 @@ export const people: Person[] = [
       "William Byrd wrote music for church and for the keyboard.",
       "He was a Catholic when that was difficult in England.",
       "He stayed, and he kept writing. Thomas Tallis was his teacher and partner.",
+      "He wrote a book of keyboard music for Lady Nevell.",
+      "He and Thomas Tallis both sang and played in the Chapel Royal.",
     ],
   },
   {
@@ -329,6 +371,8 @@ export const people: Person[] = [
       "Francis Bacon was born in London.",
       "He said that people should test ideas by looking carefully, not only by arguing.",
       "He was also a lawyer and a lord chancellor.",
+      "His book Novum Organum set out his way of testing ideas.",
+      "A story says he died after a test of how cold could keep meat fresh. We are not sure of every detail.",
     ],
   },
   {
@@ -343,6 +387,8 @@ export const people: Person[] = [
       "Inigo Jones was born in London.",
       "He designed buildings in a classical style, including the Banqueting House.",
       "He also designed sets for court plays called masques.",
+      "He studied buildings in Italy before he designed the Banqueting House.",
+      "The Banqueting House still stands in Whitehall.",
     ],
   },
   {
@@ -357,6 +403,8 @@ export const people: Person[] = [
       "John Bunyan lived in Bedford.",
       "He wrote The Pilgrim's Progress, a story of a journey.",
       "He was a preacher. For a time the law put him in prison for it.",
+      "He wrote much of The Pilgrim's Progress while he was in prison.",
+      "The journey in the book is a picture of faith. It is not a report of a real road.",
     ],
   },
   {
@@ -371,6 +419,8 @@ export const people: Person[] = [
       "John Milton was born in London.",
       "He wrote Paradise Lost, a long poem, after he had lost his sight.",
       "He also wrote about the right to speak and to print.",
+      "Paradise Lost tells the story of Adam and Eve.",
+      "Because he could not see, he spoke the poem aloud and others wrote it down.",
     ],
   },
   {
@@ -386,6 +436,8 @@ export const people: Person[] = [
       "She painted portraits in London.",
       "She earned her living as an artist when few women could.",
       "Her husband kept notes of the pictures she sold.",
+      "She painted friends, family, and church leaders.",
+      "She also wrote notes on how to paint.",
     ],
   },
   {
@@ -400,6 +452,8 @@ export const people: Person[] = [
       "Aphra Behn wrote plays and stories.",
       "She was one of the first women in England to earn a living by writing.",
       "We are not sure of every fact about her early life.",
+      "Her play The Rover was a success in London.",
+      "She also worked for the king as a spy. We are not sure of every detail.",
     ],
   },
   {
@@ -414,6 +468,8 @@ export const people: Person[] = [
       "Samuel Pepys was born in London.",
       "He kept a diary in a secret code. Later people learned to read it.",
       "It tells of the plague in 1665 and the Great Fire of London in 1666.",
+      "He worked for the navy and helped to look after ships.",
+      "He stopped the diary in 1669, because he feared he was losing his sight.",
     ],
   },
   {
@@ -436,6 +492,8 @@ export const people: Person[] = [
       "He was an astronomer, and then an architect.",
       "After the Great Fire of 1666 he planned many new churches.",
       "He designed St Paul's Cathedral. Other builders and artists worked with him.",
+      "Before the Fire he was a professor of astronomy.",
+      "He is buried in St Paul's. A Latin line on his grave means: if you seek his monument, look around you.",
     ],
   },
   {
@@ -451,6 +509,8 @@ export const people: Person[] = [
       "He looked through microscopes and drew tiny things in a book called Micrographia.",
       "After the Great Fire he helped to survey London, with Wren.",
       "He and Christiaan Huygens, in the Netherlands, both worked on a spring for watches. We are not sure who was first.",
+      "He ran the experiments at the Royal Society, a club for scientists.",
+      "He and Newton argued about who first explained how planets move. The credit is not simple.",
     ],
   },
   {
@@ -473,6 +533,8 @@ export const people: Person[] = [
       "He studied light, motion, and gravity.",
       "He worked at Cambridge and later in London.",
       "Gottfried Leibniz, in Germany, also built a kind of maths we call calculus. The two men did not agree who was first.",
+      "His great book is called Principia. It is written in Latin.",
+      "The story of a falling apple is a story he told later. It is not a full report of one afternoon.",
     ],
   },
   {
@@ -487,6 +549,8 @@ export const people: Person[] = [
       "John Flamsteed was born in Derbyshire.",
       "He was the first Astronomer Royal at Greenwich.",
       "He mapped the stars so sailors could find their way.",
+      "He quarrelled with Newton, who wanted to print the star catalogue before Flamsteed thought it was ready.",
+      "The catalogue came out after Flamsteed had died.",
     ],
   },
   {
@@ -501,6 +565,8 @@ export const people: Person[] = [
       "Edmond Halley was born in London.",
       "He studied comets. A comet that returns about every 76 years is named after him.",
       "He also helped to pay for Newton's great book.",
+      "He was Astronomer Royal after Flamsteed.",
+      "He said the comet of 1682 would return. It did, in 1758, after he had died.",
     ],
   },
   {
@@ -515,6 +581,8 @@ export const people: Person[] = [
       "Henry Purcell was born in Westminster.",
       "He wrote music for church, for the theatre, and for the court.",
       "He died young. His tunes are still sung.",
+      "He was organist of Westminster Abbey.",
+      "One of his famous works is the opera Dido and Aeneas.",
     ],
   },
   {
@@ -530,6 +598,8 @@ export const people: Person[] = [
       "He settled in London and became a British subject.",
       "He wrote operas and the oratorio Messiah.",
       "Other musicians played and sang his music.",
+      "Messiah was first performed in Dublin, in Ireland, in 1742.",
+      "Near the end of his life he went blind, and he still played.",
     ],
   },
   {
@@ -550,6 +620,8 @@ export const people: Person[] = [
       "Thomas Newcomen was born in Dartmouth, in Devon.",
       "In 1712 he built a steam engine that pumped water out of mines.",
       "Later engineers, including James Watt, who was born in Scotland, made steam engines better.",
+      "His engine used steam to make an empty space, so the weight of the air pushed a piston down.",
+      "Many of his engines pumped water from coal mines.",
     ],
   },
   {
@@ -571,6 +643,8 @@ export const people: Person[] = [
       "In 1709 he smelted iron with coke, which is made from coal.",
       "That helped ironworks to grow.",
       "His family carried on the work.",
+      "Coke let ironworks use coal, so they needed fewer trees for charcoal.",
+      "The first iron bridge, at Ironbridge, was built later by his grandson.",
     ],
   },
   {
@@ -592,6 +666,8 @@ export const people: Person[] = [
       "He made clocks that could keep time at sea.",
       "Sailors could then work out longitude, how far east or west they were.",
       "Other people tried different ways, including sums that used the moon.",
+      "His sea clocks are called H1, H2, H3, and H4. H4 looked like a large watch.",
+      "Parliament had offered a great prize for a way to find longitude. He waited years for the full prize.",
     ],
   },
   {
@@ -606,6 +682,8 @@ export const people: Person[] = [
       "William Hogarth was born in London.",
       "He painted and engraved pictures that tell a story, often about city life.",
       "He also worked so that artists could keep the rights to their pictures.",
+      "A famous set of his pictures is called A Rake's Progress.",
+      "He painted himself with his dog, whose name was Trump.",
     ],
   },
   {
@@ -620,6 +698,8 @@ export const people: Person[] = [
       "Samuel Johnson was born in Lichfield.",
       "He wrote a great dictionary of English. It took him years.",
       "His friend James Boswell, who was born in Scotland, wrote the story of Johnson's life.",
+      "He wrote most of the dictionary himself, with a few helpers to copy out the words.",
+      "He was famous for his talk. People came to hear him speak.",
     ],
   },
   {
@@ -634,6 +714,8 @@ export const people: Person[] = [
       "Joshua Reynolds was born in Plympton, in Devon.",
       "He painted portraits of famous people.",
       "He was the first president of the Royal Academy in London.",
+      "He painted hundreds of portraits.",
+      "He studied old paintings in Italy before he led the Royal Academy.",
     ],
   },
   {
@@ -647,6 +729,8 @@ export const people: Person[] = [
     lines: [
       "Thomas Gainsborough was born in Sudbury, in Suffolk.",
       "He painted people, and also the fields and trees of England.",
+      "The Blue Boy is one of his best-known portraits.",
+      "He often said he would rather paint fields and trees than faces.",
     ],
   },
   {
@@ -662,6 +746,8 @@ export const people: Person[] = [
       "People called him Capability, because he spoke of a park's 'capability'.",
       "He designed gardens with lakes, lawns, and clumps of trees.",
       "Other landowners and gardeners shared in that fashion.",
+      "He was a gardener at Stowe before he designed parks of his own.",
+      "His parks include Blenheim and Chatsworth.",
     ],
   },
   {
@@ -684,6 +770,8 @@ export const people: Person[] = [
       "He made fine cups and plates that people wanted across Europe.",
       "He also paid for canals so that clay and pots could travel.",
       "Charles Darwin was his grandson.",
+      "One of his wares is called jasperware. It is often pale blue, with white figures.",
+      "He made a pottery badge for the campaign against the trade in enslaved people.",
     ],
   },
   {
@@ -705,6 +793,8 @@ export const people: Person[] = [
       "He studied gases and found a gas that we now call oxygen.",
       "Carl Wilhelm Scheele in Sweden and Antoine Lavoisier in France also worked on that gas.",
       "Priestley was a teacher and a minister too. Later he moved to America.",
+      "He also made fizzy water, by putting gas into water.",
+      "In 1791 a crowd burned his house in Birmingham because they disliked his views.",
     ],
   },
   {
@@ -720,6 +810,8 @@ export const people: Person[] = [
       "For many years he asked Parliament to stop the British trade in enslaved people.",
       "A large group of friends worked with him, including Thomas Clarkson.",
       "In 1807 that trade was stopped on British ships.",
+      "He was a Member of Parliament for Yorkshire.",
+      "Stopping the trade in 1807 did not free people who were already enslaved. A later law, in 1833, did that.",
     ],
   },
   {
@@ -734,6 +826,8 @@ export const people: Person[] = [
       "Thomas Clarkson was born in Wisbech.",
       "He rode thousands of miles to gather facts about the trade in enslaved people.",
       "He worked with William Wilberforce and many others.",
+      "He collected tools from the ships, including irons, and showed them so people would understand.",
+      "He later wrote a history of the campaign.",
     ],
   },
   {
@@ -749,6 +843,8 @@ export const people: Person[] = [
       "As a boy he was enslaved. Later he lived in London as a free man.",
       "He was not English.",
       "His book helped people in Britain to argue against the trade.",
+      "His book is called The Interesting Narrative.",
+      "He spoke at meetings that asked Britain to end the trade.",
     ],
   },
   {
@@ -764,6 +860,8 @@ export const people: Person[] = [
       "He lived in London, wrote letters, and composed music.",
       "He kept a shop in Westminster.",
       "He is the first person of African descent known to have voted in a British election.",
+      "His letters were published after he died.",
+      "Thomas Gainsborough painted his portrait.",
     ],
   },
   {
@@ -786,6 +884,8 @@ export const people: Person[] = [
       "People in Asia, Africa, and the Ottoman lands already knew ways to guard against smallpox.",
       "In 1796 Jenner tried a safer way, using cowpox.",
       "He called it vaccination.",
+      "He noticed that milkmaids who had caught cowpox often did not catch smallpox.",
+      "Cowpox is a mild illness. Smallpox was a deadly one.",
     ],
   },
   {
@@ -802,6 +902,8 @@ export const people: Person[] = [
       "She wrote that girls should go to school and learn to think for themselves.",
       "Her book is called A Vindication of the Rights of Woman.",
       "Her daughter Mary wrote the novel Frankenstein.",
+      "For a time she ran a school.",
+      "She died soon after her daughter Mary was born.",
     ],
   },
   {
@@ -818,6 +920,8 @@ export const people: Person[] = [
       "She wrote novels about families, money, and marriage.",
       "Pride and Prejudice is one of them.",
       "She published some books without her name on the cover.",
+      "She finished six novels.",
+      "She spent her last years at Chawton, in a cottage in Hampshire.",
     ],
   },
   {
@@ -833,6 +937,8 @@ export const people: Person[] = [
       "He wrote poems about hills, lakes, and ordinary people.",
       "He worked with Samuel Taylor Coleridge, who was born in Devon.",
       "Their book Lyrical Ballads came out in 1798.",
+      "In 1843 he became Poet Laureate, the poet of the royal household.",
+      "One of his best-known poems begins, 'I wandered lonely as a cloud.'",
     ],
   },
   {
@@ -847,6 +953,8 @@ export const people: Person[] = [
       "Samuel Taylor Coleridge was born in Ottery St Mary, in Devon.",
       "He wrote poems, including The Rime of the Ancient Mariner.",
       "He worked with William Wordsworth on Lyrical Ballads.",
+      "He also wrote Kubla Khan. He said a visitor interrupted the dream that gave him the poem.",
+      "He was a great talker. Friends wrote down his ideas.",
     ],
   },
   {
@@ -862,6 +970,8 @@ export const people: Person[] = [
       "He painted the sea, the sky, and steam.",
       "His colours grew brighter and wilder as he grew older.",
       "He left many pictures to the nation.",
+      "He showed paintings at the Royal Academy from the time he was a teenager.",
+      "The Fighting Temeraire is his picture of an old warship being towed away.",
     ],
   },
   {
@@ -876,6 +986,8 @@ export const people: Person[] = [
       "John Constable was born in East Bergholt, in Suffolk.",
       "He painted the fields, the mills, and the clouds he knew.",
       "He studied clouds as carefully as a scientist.",
+      "The Hay Wain shows a wagon in a Suffolk river.",
+      "Painters in France admired his work before many people in England did.",
     ],
   },
   {
@@ -897,6 +1009,8 @@ export const people: Person[] = [
       "He found several new metals.",
       "He invented a safety lamp for miners.",
       "George Stephenson also made a safety lamp. The two lamps were different.",
+      "Michael Faraday began as his assistant.",
+      "He tested a gas called nitrous oxide. People called it laughing gas.",
     ],
   },
   {
@@ -918,6 +1032,8 @@ export const people: Person[] = [
       "He was a surveyor. He noticed that layers of rock held different fossils.",
       "In 1815 he published a great map of the rocks of England and Wales.",
       "It was the first map of its kind for a whole country.",
+      "People called him Strata Smith, because strata means the layers of rock.",
+      "For a long time he was poor, even after the great map. Other men used his ideas.",
     ],
   },
   {
@@ -939,6 +1055,8 @@ export const people: Person[] = [
       "He built high-pressure steam engines.",
       "In 1804 one of his locomotives pulled iron along a track at Penydarren, in Wales.",
       "George Stephenson later made locomotives that ran regular railways in England.",
+      "In 1801 he drove a steam carriage on a road in Camborne. People called it the Puffing Devil.",
+      "He died poor, in Dartford, in Kent.",
     ],
   },
   {
@@ -962,6 +1080,8 @@ export const people: Person[] = [
       "Richard Trevithick, from Cornwall, had made a steam locomotive earlier.",
       "James Watt, who was born in Scotland, had improved steam engines before that.",
       "His son Robert, born at Willington Quay, worked with him. Henry Booth also gave an idea for the Rocket's boiler.",
+      "In 1829 the Rocket won a contest at Rainhill, to choose engines for a new railway.",
+      "As a young man he taught himself to read and write.",
     ],
   },
   {
@@ -977,6 +1097,8 @@ export const people: Person[] = [
       "As a child she found fossils in the cliffs.",
       "She found skeletons of sea creatures from long ago.",
       "Scientists used her finds. For a long time many of them left her name off the papers.",
+      "Her brother Joseph found a skull in the cliff. Mary found the rest of the skeleton. It was an ichthyosaur.",
+      "She also found the first plesiosaur skeleton known in Britain.",
     ],
   },
   {
@@ -999,6 +1121,8 @@ export const people: Person[] = [
       "He started as a bookbinder's apprentice.",
       "He found out more about electricity and magnetism.",
       "He made a simple electric motor and a dynamo.",
+      "At Christmas he gave science lectures for children. One is called The Chemical History of a Candle.",
+      "He refused a knighthood. He wanted to stay plain Michael Faraday.",
     ],
   },
   {
@@ -1021,6 +1145,8 @@ export const people: Person[] = [
       "He designed calculating machines. He called one the Difference Engine and one the Analytical Engine.",
       "The big engines were not finished in his lifetime.",
       "Ada Lovelace wrote important notes about the Analytical Engine. Other makers later built working parts.",
+      "He helped to found the Royal Astronomical Society.",
+      "In the 1990s a team built part of his Difference Engine. It worked.",
     ],
   },
   {
@@ -1042,6 +1168,8 @@ export const people: Person[] = [
       "She worked with Charles Babbage on his plan for a machine that could follow steps.",
       "She wrote notes about how such a machine might do more than simple sums.",
       "She did not build the machine. It was not finished in their lifetimes.",
+      "Her father was the poet Lord Byron. She did not grow up with him.",
+      "She called the work of the machine poetical science.",
     ],
   },
   {
@@ -1057,6 +1185,8 @@ export const people: Person[] = [
       "She visited women in prison and brought them clothes and lessons.",
       "She wanted a calmer way of living inside the prison.",
       "Other reformers worked with her.",
+      "She was a Quaker.",
+      "She travelled to other countries to speak about prisons.",
     ],
   },
   {
@@ -1071,6 +1201,8 @@ export const people: Person[] = [
       "Grace Darling lived on the Farne Islands, off the Northumberland coast.",
       "Her father kept the Longstone lighthouse.",
       "In 1838 she and her father rowed out in a storm to a wrecked ship and brought people back.",
+      "The wrecked ship was called the Forfarshire.",
+      "She became famous across the country. She died four years later, still young.",
     ],
   },
   {
@@ -1085,6 +1217,8 @@ export const people: Person[] = [
       "Victoria was born at Kensington Palace in London.",
       "She was queen of the United Kingdom, not of England alone, from 1837 to 1901.",
       "Her long reign gave its name to the Victorian age.",
+      "In 1840 she married her cousin Albert, a prince from Germany.",
+      "She kept a diary for most of her life.",
     ],
   },
   {
@@ -1107,6 +1241,8 @@ export const people: Person[] = [
       "He sailed on a ship called the Beagle.",
       "He wrote that living things change over a very long time. This idea is called natural selection.",
       "Alfred Russel Wallace, who was born in Wales, reached the same idea. They shared the credit.",
+      "In 1859 he published On the Origin of Species.",
+      "For many years he lived at Down House in Kent, and studied plants, barnacles, and worms there.",
     ],
   },
   {
@@ -1123,6 +1259,8 @@ export const people: Person[] = [
       "He wrote stories in parts, so people could buy them week by week.",
       "Oliver Twist and A Christmas Carol are two of them.",
       "He also spoke about schools and dirty streets.",
+      "When he was a boy, his father was in prison for debt, and Charles worked in a factory that made boot polish.",
+      "He is buried in Poets' Corner in Westminster Abbey.",
     ],
   },
   {
@@ -1138,6 +1276,8 @@ export const people: Person[] = [
       "She grew up at Haworth with her sisters Emily and Anne.",
       "She wrote Jane Eyre.",
       "At first she used the name Currer Bell.",
+      "Before Jane Eyre she worked as a teacher and as a governess.",
+      "She was the only one of the three sisters to marry. She died the next year.",
     ],
   },
   {
@@ -1152,6 +1292,8 @@ export const people: Person[] = [
       "Emily Brontë wrote Wuthering Heights and many poems.",
       "She lived at Haworth, on the edge of the moors.",
       "She published under the name Ellis Bell.",
+      "Wuthering Heights was her only novel.",
+      "She died young, at thirty.",
     ],
   },
   {
@@ -1166,6 +1308,8 @@ export const people: Person[] = [
       "Anne Brontë was the youngest of the writing sisters at Haworth.",
       "She wrote Agnes Grey and The Tenant of Wildfell Hall.",
       "She published under the name Acton Bell.",
+      "She worked as a governess. Agnes Grey draws on that work.",
+      "She died at Scarborough, and she is buried there, not at Haworth.",
     ],
   },
   {
@@ -1181,6 +1325,8 @@ export const people: Person[] = [
       "She wrote novels under the name George Eliot.",
       "Middlemarch is set in a Midlands town.",
       "She wanted to show ordinary lives with care.",
+      "She also translated books from German.",
+      "She helped to edit a magazine called the Westminster Review.",
     ],
   },
   {
@@ -1203,6 +1349,8 @@ export const people: Person[] = [
       "She grew up in England.",
       "She trained nurses and made hospitals cleaner and more orderly.",
       "She used numbers to show what helped sick people.",
+      "In the Crimean War she worked at a hospital at Scutari.",
+      "She started a training school for nurses at St Thomas' Hospital in London.",
     ],
   },
   {
@@ -1219,6 +1367,8 @@ export const people: Person[] = [
       "Her mother was Jamaican and her father was a Scottish officer. She was not English.",
       "She came to Britain and worked as a nurse.",
       "In the Crimean War she cared for soldiers near the fighting.",
+      "She set up a place called the British Hotel, where soldiers could rest and buy food.",
+      "She wrote a book called Wonderful Adventures of Mrs Seacole in Many Lands.",
     ],
   },
   {
@@ -1234,6 +1384,8 @@ export const people: Person[] = [
       "He worked as a doctor in London.",
       "In 1854 he showed that a water pump in Soho was spreading cholera. The handle was taken off.",
       "He also studied ways to ease pain in surgery.",
+      "He drew a map of the cholera cases, house by house.",
+      "He gave Queen Victoria a drug to ease pain when she had a baby.",
     ],
   },
   {
@@ -1256,6 +1408,8 @@ export const people: Person[] = [
       "He worked as a surgeon in Glasgow, in Scotland, and later in London.",
       "He found that carbolic acid could keep surgery cleaner.",
       "Later doctors used other, gentler ways to stop infection.",
+      "He learned from Louis Pasteur, in France, that tiny living things can cause disease.",
+      "A mouthwash was later named after him. He did not invent it.",
     ],
   },
   {
@@ -1277,6 +1431,8 @@ export const people: Person[] = [
       "In the hot summer of 1858 the Thames smelled so bad that Parliament noticed.",
       "He built huge sewers under London.",
       "They still help to keep the river cleaner.",
+      "The system included pumping stations, such as the one at Abbey Mills.",
+      "He also planned the embankments that hold the Thames back through the city.",
     ],
   },
   {
@@ -1299,6 +1455,8 @@ export const people: Person[] = [
       "His father, Marc Brunel, was born in France.",
       "Isambard built bridges, a tunnel under the Thames, ships, and the Great Western Railway.",
       "Other engineers also built Britain's railways. The work was shared across the country.",
+      "The Clifton Suspension Bridge in Bristol was finished after he died.",
+      "His ship the Great Eastern was the largest ship in the world for many years.",
     ],
   },
   {
@@ -1314,6 +1472,8 @@ export const people: Person[] = [
       "She became a doctor when many medical schools would not teach women.",
       "She was the first woman to qualify by training in Britain.",
       "She opened a hospital for women, and she was mayor of Aldeburgh.",
+      "The Society of Apothecaries let her qualify. It then changed the rules to keep other women out.",
+      "Her hospital was called the New Hospital for Women.",
     ],
   },
   {
@@ -1329,6 +1489,8 @@ export const people: Person[] = [
       "He designed wallpaper, cloth, and books.",
       "He wanted everyday things to be beautiful and well made.",
       "He also wrote poems and stories.",
+      "He printed beautiful books at the Kelmscott Press.",
+      "His workshop designed furniture and stained glass as well as cloth.",
     ],
   },
   {
@@ -1351,6 +1513,8 @@ export const people: Person[] = [
       "He made an early electric light bulb.",
       "Thomas Edison, in America, also made a bulb.",
       "Their work overlapped. In Britain they later joined in one company.",
+      "In 1881 his lamps lit the Savoy Theatre in London.",
+      "He was a chemist as well as an inventor.",
     ],
   },
   {
@@ -1366,6 +1530,8 @@ export const people: Person[] = [
       "She worked so that families in cities could rent decent homes.",
       "She helped to start the National Trust, with Robert Hunter and Hardwicke Rawnsley.",
       "The Trust keeps special places for people to enjoy.",
+      "She trained women to collect the rents and to know the families.",
+      "She also worked to save open spaces in cities, not only in the countryside.",
     ],
   },
   {
@@ -1381,6 +1547,8 @@ export const people: Person[] = [
       "His father was from Sierra Leone. His mother was English.",
       "He wrote music, including Hiawatha's Wedding Feast.",
       "He conducted orchestras in England and in America.",
+      "He studied at the Royal College of Music.",
+      "His mother named him after the poet Samuel Taylor Coleridge.",
     ],
   },
   {
@@ -1396,6 +1564,8 @@ export const people: Person[] = [
       "She wrote and drew The Tale of Peter Rabbit.",
       "She later lived in the Lake District.",
       "She gave land so that people could keep the hills and farms.",
+      "She first told the story of Peter Rabbit in a letter to a sick child.",
+      "She was also a careful student of fungi, and she painted them.",
     ],
   },
   {
@@ -1411,6 +1581,8 @@ export const people: Person[] = [
       "He played football for Tottenham Hotspur and for Northampton Town.",
       "He became an officer in the army at a time when that was rare for a Black man in Britain.",
       "He died in 1918, during the First World War.",
+      "His grandfather had been enslaved in Barbados.",
+      "A memorial to him stands in Northampton.",
     ],
   },
   {
@@ -1425,6 +1597,8 @@ export const people: Person[] = [
       "Winston Churchill was born at Blenheim Palace in Oxfordshire.",
       "He was prime minister of the United Kingdom during the Second World War.",
       "He led the whole United Kingdom, not England alone.",
+      "He was also a writer, and he won the Nobel Prize in Literature.",
+      "He was prime minister again from 1951 to 1955.",
     ],
   },
   {
@@ -1440,6 +1614,8 @@ export const people: Person[] = [
       "In 1930 she flew alone from England to Australia.",
       "The journey took many days.",
       "She died in 1941, during the Second World War.",
+      "She was the first woman to fly alone from England to Australia.",
+      "Her aeroplane was called Jason.",
     ],
   },
   {
@@ -1461,6 +1637,8 @@ export const people: Person[] = [
       "He designed a jet engine.",
       "Hans von Ohain, in Germany, also built an early jet engine. A German jet aeroplane flew first, in 1939.",
       "The first British jet aeroplane, using Whittle's engine, flew in 1941.",
+      "He was an officer in the Royal Air Force.",
+      "He patented his idea in 1930, years before a jet flew.",
     ],
   },
   {
@@ -1477,6 +1655,8 @@ export const people: Person[] = [
       "In the Second World War he worked with a large team at Bletchley Park on secret German messages.",
       "Polish mathematicians had already done important work on those messages. Many people, from Britain and from other countries, worked together.",
       "He also wrote about machines that could follow steps, like computers.",
+      "After the war he worked on early computers in Manchester.",
+      "In 1952 the law punished him for being gay. That was wrong. In 2013 he was pardoned.",
     ],
   },
   {
@@ -1499,6 +1679,8 @@ export const people: Person[] = [
       "James Watson, Francis Crick, and Maurice Wilkins shared the model of DNA.",
       "Her pictures mattered.",
       "Watson was from America. Wilkins was born in New Zealand. Crick was born in Northampton.",
+      "She also studied coal and viruses, not only DNA.",
+      "She died in 1958, before the Nobel Prize for the DNA model was given. That prize is not given after death.",
     ],
   },
   {
@@ -1520,6 +1702,8 @@ export const people: Person[] = [
       "With James Watson he built a model of DNA.",
       "Maurice Wilkins and Rosalind Franklin also did key work. Her pictures mattered.",
       "Watson was from America. Wilkins was born in New Zealand.",
+      "The model was published in 1953, in the journal Nature.",
+      "Later in his life he studied how the brain works.",
     ],
   },
   {
@@ -1535,6 +1719,8 @@ export const people: Person[] = [
       "She grew up and worked in England.",
       "She used X-rays to map the shapes of penicillin and vitamin B12.",
       "She won a Nobel Prize. Teams of students worked with her.",
+      "After many years she also mapped the shape of insulin.",
+      "At Oxford she taught Margaret Thatcher, who later became prime minister.",
     ],
   },
   {
@@ -1556,6 +1742,8 @@ export const people: Person[] = [
       "He invented the hovercraft.",
       "His first tests used a tin and a household vacuum cleaner.",
       "Other engineers helped to build the full-size craft.",
+      "He had worked on radar before he invented the hovercraft.",
+      "In 1959 a hovercraft crossed the Channel.",
     ],
   },
   {
@@ -1575,6 +1763,8 @@ export const people: Person[] = [
       "Percy Shaw was born in Halifax.",
       "He said the idea came when a cat's eyes shone back at his car on a foggy road.",
       "He made studs, called cat's eyes, that mark the middle of a road.",
+      "He made the studs in a factory in Halifax.",
+      "When a tyre passes over a stud, a rubber pad wipes the glass so it can shine in the rain.",
     ],
   },
   {
@@ -1596,6 +1786,8 @@ export const people: Person[] = [
       "He found ways to read the order of pieces in proteins, and later in DNA.",
       "He is one of the few people to win two Nobel Prizes in chemistry.",
       "He worked with teams.",
+      "His way of reading DNA was later used to read the human genome.",
+      "He twice refused a knighthood. He preferred to stay a working scientist.",
     ],
   },
   {
@@ -1611,6 +1803,8 @@ export const people: Person[] = [
       "He studied space and black holes.",
       "For much of his life he used a wheelchair and a computer voice.",
       "He wrote A Brief History of Time so that more people could think about the universe.",
+      "He grew up in St Albans.",
+      "At Cambridge he held a professor's chair that Isaac Newton once held.",
     ],
   },
   {
@@ -1632,6 +1826,8 @@ export const people: Person[] = [
       "He invented the World Wide Web while working at CERN, a science centre in Switzerland.",
       "Robert Cailliau, from Belgium, worked with him.",
       "The web is a way to share pages. It is not the same thing as the internet, which other people had already built.",
+      "He did not patent the web. He made it free for anyone to use.",
+      "The first website went online in 1991.",
     ],
   },
 ];
