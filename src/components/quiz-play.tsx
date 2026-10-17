@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { questions, type QuizQuestion } from "@/data/quiz";
 import { fill, useTr } from "@/i18n/locale";
-import { armQuizSounds, playCheer, playFart } from "@/lib/quiz-sounds";
+import { armQuizSounds, playCheer, playFart, unlockQuizSounds } from "@/lib/quiz-sounds";
 
 type Team = { id: string; name: string; score: number; choice: number | null };
 
@@ -127,6 +127,7 @@ export function QuizPlay() {
 
   function chooseSolo(choice: number) {
     if (phase !== "ask" || !question) return;
+    unlockQuizSounds();
     setPicked(choice);
     if (choice === question.answer) {
       setScore((value) => value + 1);
@@ -140,6 +141,7 @@ export function QuizPlay() {
 
   function chooseTeam(teamId: string, choice: number) {
     if (phase !== "ask" || !question) return;
+    unlockQuizSounds();
     const next = teamsRef.current.map((team) => (team.id === teamId ? { ...team, choice } : team));
     teamsRef.current = next;
     setTeams(next);

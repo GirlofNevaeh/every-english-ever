@@ -1,17 +1,68 @@
 let audio: AudioContext | null = null;
 let listening = false;
+let keeper: OscillatorNode | null = null;
 
 function context() {
+  if (typeof window === "undefined") return null;
+  const Ctx = window.AudioContext || (window as Window & { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
+  if (!Ctx) return null;
+  if (!audio) audio = new Ctx();
+  return audio;
+}
+
+function keepAwake(ctx: AudioContext) {
+  if (keeper) return;
+  const osc = ctx.createOscillator();
+  const gain = ctx.createGain();
+  osc.frequency.value = 1;
+  gain.gain.value = 0.00001;
+  osc.connect(gain);
+  gain.connect(ctx.destination);
+  osc.start();
+  keeper = osc;
+}
+
+/** Create and resume the one page context inside a tap or click. Does not play a quiz sound. */
+export function unlockQuizSounds() {
   try {
-    if (typeof window === "undefined") return null;
-    const Ctx = window.AudioContext || (window as Window & { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
-    if (!Ctx) return null;
-    if (!audio) audio = new Ctx();
-    if (audio.state === "suspended") void audio.resume();
-    return audio;
+    const ctx = context();
+    if (!ctx) return;
+    if (ctx.state !== "running") void ctx.resume();
+    if (ctx.state === "running") keepAwake(ctx);
   } catch {
-    return null;
+    /* The quiz still works if the browser blocks sound. */
   }
+}
+
+/** Resume the one page context on the first tap or click. Does not play a sound. */
+export function armQuizSounds() {
+  if (listening || typeof window === "undefined") return;
+  listening = true;
+  window.addEventListener("pointerdown", () => unlockQuizSounds(), { capture: true });
+}
+
+function playWhenRunning(run: (ctx: AudioContext, now: number) => void) {
+  let ctx: AudioContext | null = null;
+  try {
+    ctx = context();
+  } catch {
+    return;
+  }
+  if (!ctx) return;
+  const go = () => {
+    if (!ctx || ctx.state !== "running") return;
+    try {
+      keepAwake(ctx);
+      run(ctx, ctx.currentTime + 0.05);
+    } catch {
+      // A failed ramp should not stop the next sound.
+    }
+  };
+  if (ctx.state !== "running") {
+    void ctx.resume().then(go).catch(() => undefined);
+    return;
+  }
+  go();
 }
 
 function tone(ctx: AudioContext, frequency: number, start: number, duration: number, volume: number, type: OscillatorType = "triangle") {
@@ -28,30 +79,12 @@ function tone(ctx: AudioContext, frequency: number, start: number, duration: num
   osc.stop(start + duration + 0.02);
 }
 
-function withSound(run: (ctx: AudioContext, now: number) => void) {
-  const ctx = context();
-  if (!ctx) return;
-  if (ctx.state === "suspended") void ctx.resume();
-  try {
-    run(ctx, ctx.currentTime + 0.03);
-  } catch {
-    // A failed ramp should not stop the next sound.
-  }
-}
-
-/** Resume the one page context on the first tap or click. Does not play a sound. */
-export function armQuizSounds() {
-  if (listening || typeof window === "undefined") return;
-  listening = true;
-  window.addEventListener("pointerdown", () => void context(), { capture: true });
-}
-
 export function playCheer() {
-  withSound((ctx, now) => {
+  playWhenRunning((ctx, now) => {
     [523.25, 659.25, 783.99, 1046.5].forEach((frequency, index) => {
       tone(ctx, frequency, now + index * 0.09, 0.32, 0.28);
     });
-    const noise = ctx.createBuffer(1, ctx.sampleRate * 0.25, ctx.sampleRate);
+    const noise = ctx.createBuffer(1, Math.floor(ctx.sampleRate * 0.25), ctx.sampleRate);
     const data = noise.getChannelData(0);
     for (let i = 0; i < data.length; i++) data[i] = Math.random() * 2 - 1;
     const source = ctx.createBufferSource();
@@ -71,7 +104,7 @@ export function playCheer() {
 }
 
 export function playFart() {
-  withSound((ctx, now) => {
+  playWhenRunning((ctx, now) => {
     const duration = 0.7;
     const length = Math.floor(ctx.sampleRate * duration);
     const noise = ctx.createBuffer(1, length, ctx.sampleRate);
